@@ -1,0 +1,16 @@
+{
+	"name": "providers-status",
+	"version": "1.0.0",
+	"description": "Status for all consumet providers",
+	"main": "index.js",
+	"repository": "git@github.com:consumet/providers-status.git",
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^0.27.2",
+		"ts-node": "^10.8.1",
+		"typescript": "^4.7.3"
+	},
+	"devDependencies": {
+		"@types/node": "^17.0.42"
+	}
+}
