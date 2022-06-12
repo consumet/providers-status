@@ -14,13 +14,12 @@ jobs:
       packages: write
     steps:
       - uses: actions/checkout@v3
-      - uses: borales/actions-yarn@v3.0.0
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
-      - run: yarn install
-      - run: yarn add -g ts-node
-      - run: yarn add -g typescript
+      - run: npm install
+      - run: npm install -g ts-node
+      - run: npm install -g typescript
       - run: ts-node ./src/script.ts
       - name: Commit & Push
         run: |
@@ -29,3 +28,5 @@ jobs:
           git add -A .
           git commit -m "Provider Status Check"
           git push
+      - name: Delete package-lock.json
+        run: rm package-lock.json
