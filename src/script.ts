@@ -6,7 +6,7 @@ const main = async () => {
 	output += '| **provider** | **Status** | **Time** |\n|:--------:|:------:|:----:|\n';
 	output = await checkLibgen({ output });
 	output = await checkGetComics({ output });
-	fs.writeFileSync('./provider_status/README.md', output);
+	fs.writeFileSync('./README.md', output);
 };
 
 const checkLibgen = async (output: { output: string }) => {
