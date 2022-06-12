@@ -20,7 +20,7 @@ jobs:
       - run: npm install
       - run: npm install -g ts-node
       - run: npm install -g typescript
-      - run: ts-node ./provider_status/script.ts
+      - run: ts-node ./src/script.ts
       - name: Commit & Push
         run: |
           git config user.name prince-ao
