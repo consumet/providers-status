@@ -21,6 +21,8 @@ jobs:
       - run: npm install -g ts-node
       - run: npm install -g typescript
       - run: ts-node ./src/script.ts
+      - name: Delete package-lock.json
+        run: rm package-lock.json
       - name: Commit & Push
         run: |
           git config user.name prince-ao
@@ -28,5 +30,3 @@ jobs:
           git add -A .
           git commit -m "Provider Status Check"
           git push
-      - name: Delete package-lock.json
-        run: rm package-lock.json
