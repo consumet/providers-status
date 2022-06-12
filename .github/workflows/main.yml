@@ -17,9 +17,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
-      - run: npm install
-      - run: npm install -g ts-node
-      - run: npm install -g typescript
+      - run: yarn install
+      - run: yarn add -g ts-node
+      - run: yarn add -g typescript
       - run: ts-node ./src/script.ts
       - name: Commit & Push
         run: |
