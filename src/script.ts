@@ -6,6 +6,7 @@ const main = async () => {
 	output += '| **provider** | **Status** | **Time** |\n|:--------:|:------:|:----:|\n';
 	output = await checkLibgen({ output });
 	output = await checkGetComics({ output });
+	console.log(output);
 	fs.writeFileSync('./README.md', output);
 };
 
