@@ -54,6 +54,7 @@ jobs:
             npm install -g ts-node
             npm install -g typescript
             npm run check-providers
+            
       - name: Delete package-lock.json
         run: rm package-lock.json
       - name: Commit & Push
