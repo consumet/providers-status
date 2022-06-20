@@ -7,7 +7,7 @@
         "lang": "en",
         "isNSFW": false,
         "logo": "https://d1nxzqpcg2bym0.cloudfront.net/google_play/com.my.nineanime/87b2fe48-9c36-11eb-8292-21241b1c199b/128x128",
-        "classPath": "ANIME.en.NineAnime",
+        "classPath": "ANIME.NineAnime",
         "isWorking": false
       },
       {
@@ -16,7 +16,7 @@
         "lang": "en",
         "isNSFW": false,
         "logo": "https://i0.wp.com/cloudfuji.com/wp-content/uploads/2021/12/gogoanime.png?fit=300%2C400&ssl=1",
-        "classPath": "ANIME.en.Gogoanime",
+        "classPath": "ANIME.Gogoanime",
         "isWorking": true
       }
     ]
@@ -29,7 +29,7 @@
         "lang": "en",
         "isNSFW": false,
         "logo": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2F1391016345714757632%2Fxbt_jW78.jpg",
-        "classPath": "MANGA.all.MangaDex",
+        "classPath": "MANGA.MangaDex",
         "isWorking": true
       }
     ]
@@ -68,7 +68,7 @@
         "lang": "en",
         "isNSFW": false,
         "logo": "https://i.imgur.com/RDPjbc6.png",
-        "classPath": "LIGHT_NOVELS.en.ReadLightNovels",
+        "classPath": "LIGHT_NOVELS.ReadLightNovels",
         "isWorking": true
       }
     ]
