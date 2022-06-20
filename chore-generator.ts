@@ -8,7 +8,7 @@ import fs from "fs"
 const start = async() => {
  let output = '| **provider** | **Status** | **Time** |\n|:--------:|:------:|:----:|\n'
  let t0, t1 = performance.now()
-	const NineAnime = new ANIME.en.NineAnime()
+	const NineAnime = new ANIME.NineAnime()
  try {
 	t0 = performance.now()
 	 const NineAnimeRes = await NineAnime.search("One Piece")
@@ -22,7 +22,7 @@ const start = async() => {
 } catch (e) {
 	 output += `| [${NineAnime.name}](https://9anime.to) | 🔴 500 | 0s |\n`
 	}
-	const Gogoanime = new ANIME.en.Gogoanime()
+	const Gogoanime = new ANIME.Gogoanime()
  try {
 	t0 = performance.now()
 	 const GogoanimeRes = await Gogoanime.search("One Piece")
@@ -36,7 +36,7 @@ const start = async() => {
 } catch (e) {
 	 output += `| [${Gogoanime.name}](https://gogoanime.gg) | 🔴 500 | 0s |\n`
 	}
-	const MangaDex = new MANGA.all.MangaDex()
+	const MangaDex = new MANGA.MangaDex()
  try {
 	t0 = performance.now()
 	 const MangaDexRes = await MangaDex.search("One Piece")
@@ -78,7 +78,7 @@ const start = async() => {
 } catch (e) {
 	 output += `| [${GetComics.name}](https://getcomics.info/) | 🔴 500 | 0s |\n`
 	}
-	const ReadLightNovels = new LIGHT_NOVELS.en.ReadLightNovels()
+	const ReadLightNovels = new LIGHT_NOVELS.ReadLightNovels()
  try {
 	t0 = performance.now()
 	 const ReadLightNovelsRes = await ReadLightNovels.search("One Piece")
