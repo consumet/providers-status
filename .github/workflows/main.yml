@@ -1,4 +1,4 @@
-name: update-providers-status
+name: chore-providers
 
 on:
   schedule:
@@ -6,7 +6,38 @@ on:
   workflow_dispatch:
 
 jobs:
-  update_providers:
+  updates-providers:
+    runs-on: ubuntu-latest
+    steps:
+     - name: Clone repo
+       uses: actions/checkout@v2
+       with:
+         token: ${{ secrets.GITHUB_TOKEN }}
+
+     - name: install node v12
+       uses: actions/setup-node@v1
+       with:
+         node-version: 14
+
+     - name: yarn install & yarn add ts-node
+       run: |
+         yarn install
+         yarn global add ts-node
+
+     - name: Update providers
+       run: |
+           ts-node ./.github/scripts/update-providers.ts
+
+     - name: Auto Commit
+       uses: stefanzweifel/git-auto-commit-action@v4
+       with:
+         branch: update-providers
+         commit_message: "chore: update providers"
+         skip_fetch: false
+         push_options: '--force'
+         create_branch: true
+        
+  update_providers-status:
     runs-on: ubuntu-latest
     name: run-script
     permissions:
@@ -17,10 +48,12 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
-      - run: npm install
-      - run: npm install -g ts-node
-      - run: npm install -g typescript
-      - run: ts-node ./src/script.ts
+      - name: install dependencies
+        run: |
+            npm install
+            npm install -g ts-node
+            npm install -g typescript
+            npm run check-providers
       - name: Delete package-lock.json
         run: rm package-lock.json
       - name: Commit & Push
@@ -28,5 +61,5 @@ jobs:
           git config user.name prince-ao
           git config user.email princeaddo608@gmail.com
           git add -A .
-          git commit -m "Provider Status Check"
+          git commit -m "chore: Provider Status Check"
           git push

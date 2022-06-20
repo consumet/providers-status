@@ -1,19 +1,22 @@
 {
-	"name": "providers-status",
-	"version": "1.0.0",
-	"description": "Status for all consumet providers",
-	"scripts": {
-		"run-script": "ts-node ./src/script.ts"
-	},
-	"main": "index.js",
-	"repository": "git@github.com:consumet/providers-status.git",
-	"license": "MIT",
-	"dependencies": {
-		"axios": "^0.27.2",
-		"ts-node": "^10.8.1",
-		"typescript": "^4.7.3"
-	},
-	"devDependencies": {
-		"@types/node": "^17.0.42"
-	}
+    "name": "providers-status",
+    "version": "1.0.0",
+    "description": "Status for all consumet providers",
+    "scripts": {
+        "run-script": "ts-node ./src/script.ts",
+        "check-providers": "yarn run-script && ts-node ./generated.ts"
+    },
+    "main": "index.js",
+    "repository": "git@github.com:consumet/providers-status.git",
+    "license": "MIT",
+    "dependencies": {
+        "@consumet/extensions": "^1.0.0",
+        "axios": "^0.27.2",
+        "consumet-extensions": "../consumet-extentions",
+        "ts-node": "^10.8.1",
+        "typescript": "^4.7.3"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.42"
+    }
 }
