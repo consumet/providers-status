@@ -1,4 +1,4 @@
-name: chore-providers
+name: Chore Providers
 
 on:
   schedule:
@@ -38,7 +38,6 @@ jobs:
          commit_message: "chore: update providers"
          skip_fetch: false
          push_options: '--force'
-         create_branch: true
         
   update_providers-status:
     runs-on: ubuntu-latest
@@ -56,14 +55,15 @@ jobs:
             npm install
             npm install -g ts-node
             npm install -g typescript
+            npm update
             npm run check-providers
 
       - name: Delete package-lock.json
         run: rm package-lock.json
       - name: Commit & Push
-        run: |
-          git config user.name prince-ao
-          git config user.email princeaddo608@gmail.com
-          git add -A .
-          git commit -m "chore: Provider Status Check"
-          git push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: main
+          commit_message: "chore: providers status check"
+          skip_fetch: false
+          push_options: '--force'
