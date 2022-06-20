@@ -10,7 +10,7 @@
     "repository": "git@github.com:consumet/providers-status.git",
     "license": "MIT",
     "dependencies": {
-        "@consumet/extensions": "^1.0.0",
+        "@consumet/extensions": "git@github.com:consumet/extensions.git",
         "axios": "^0.27.2",
         "crypto-js": "^4.1.1",
         "ts-node": "^10.8.1",
