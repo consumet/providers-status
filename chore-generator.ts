@@ -3,7 +3,7 @@
 
 import {ANIME, BOOKS, MANGA, COMICS, LIGHT_NOVELS} from '@consumet/extensions'
 import fs from "fs"
-
+import {performance} from "perf_hooks"
 
 const start = async() => {
  let output = '| **provider** | **Status** | **Time** |\n|:--------:|:------:|:----:|\n'
