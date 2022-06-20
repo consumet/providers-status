@@ -22,5 +22,5 @@ const providersListToJson = (providers: any): string => {
 
 (() => {
   const providersJson = providersListToJson(PROVIDERS_LIST);
-  fs.writeFileSync('./providers.json', providersJson);
+  fs.writeFileSync('./providers-list.json', providersJson);
 })();
