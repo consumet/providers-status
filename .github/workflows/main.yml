@@ -8,6 +8,9 @@ on:
 jobs:
   updates-providers:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
     steps:
      - name: Clone repo
        uses: actions/checkout@v2
@@ -54,7 +57,7 @@ jobs:
             npm install -g ts-node
             npm install -g typescript
             npm run check-providers
-            
+
       - name: Delete package-lock.json
         run: rm package-lock.json
       - name: Commit & Push
