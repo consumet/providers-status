@@ -34,7 +34,7 @@ jobs:
      - name: Auto Commit
        uses: stefanzweifel/git-auto-commit-action@v4
        with:
-         branch: update-providers
+         branch: main
          commit_message: "chore: update providers"
          skip_fetch: false
          push_options: '--force'
