@@ -1,4 +1,4 @@
-name: Update Providers Status
+name: Update Providers List
 
 on:
   schedule:
