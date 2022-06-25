@@ -1,8 +1,8 @@
 | **provider** | **Status** | **Time** |
 |:--------:|:------:|:----:|
 | [9Anime](https://9anime.to) | 🔴 500 | 0s |
-| [Gogoanime](https://gogoanime.gg) | 🟢 200 | 0.782s |
-| [MangaDex](https://mangadex.org) | 🟢 200 | 0.385s |
+| [Gogoanime](https://gogoanime.gg) | 🟢 200 | 0.476s |
+| [MangaDex](https://mangadex.org) | 🟢 200 | 0.371s |
 | [Libgen](http://libgen) | 🔴 500 | 0s |
-| [GetComics](https://getcomics.info/) | 🟢 200 | 7.34s |
-| [Read Light Novels](https://readlightnovels.net) | 🟢 200 | 0.930s |
+| [GetComics](https://getcomics.info/) | 🟢 200 | 4.52s |
+| [Read Light Novels](https://readlightnovels.net) | 🟢 200 | 1.08s |
