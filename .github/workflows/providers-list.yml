@@ -1,0 +1,41 @@
+name: Update Providers Status
+
+on:
+  schedule:
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+
+jobs: 
+  updates-providers-list:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+    steps:
+     - name: Clone repo
+       uses: actions/checkout@v2
+       with:
+         token: ${{ secrets.GITHUB_TOKEN }}
+
+     - name: install node v12
+       uses: actions/setup-node@v1
+       with:
+         node-version: 14
+
+     - name: yarn install
+       run: |
+         yarn install
+         yarn global add ts-node
+         yarn upgrade
+
+     - name: Update providers
+       run: |
+           ts-node ./.github/scripts/update-providers.ts
+
+     - name: Auto Commit
+       uses: stefanzweifel/git-auto-commit-action@v4
+       with:
+         branch: main
+         commit_message: "chore: update providers list"
+         skip_fetch: false
+         push_options: '--force'
