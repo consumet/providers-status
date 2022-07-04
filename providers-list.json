@@ -74,6 +74,19 @@
     ]
   },
   {
+    "MOVIES": [
+      {
+        "name": "FlixHQ",
+        "baseUrl": "https://flixhq.to",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://img.flixhq.to/xxrz/400x400/100/ab/5f/ab5f0e1996cc5b71919e10e910ad593e/ab5f0e1996cc5b71919e10e910ad593e.png",
+        "classPath": "MOVIES.FlixHQ",
+        "isWorking": true
+      }
+    ]
+  },
+  {
     "OTHERS": []
   }
 ]
