@@ -28,6 +28,7 @@ const generateFile = async () => {
         case 'ZLibrary':
           query = 'One Hundred Years of Solitude';
           break;
+        case 'FlixHQ':
         case 'GetComics':
           query = 'batman';
       }
