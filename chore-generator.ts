@@ -95,7 +95,7 @@ const start = async() => {
 	const FlixHQ = new MOVIES.FlixHQ()
  try {
 	t0 = performance.now()
-	 const FlixHQRes = await FlixHQ.search("")
+	 const FlixHQRes = await FlixHQ.search("batman")
 	 t1 = performance.now()
 	if (FlixHQRes.results){
 		 output += `| [${FlixHQ.name}](https://flixhq.to) | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
