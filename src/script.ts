@@ -46,29 +46,29 @@ const generateFile = async () => {
       inFile += '	 t1 = performance.now()\n';
       if (className == 'Libgen') {
         inFile += `	if (${className}Res){\n`;
-        inFile += `		 output += \`${`| <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="${provider.logo}" width="25" height="25"><a style="text-align: center;" href="${provider.baseUrl}">\${${className}.name}</a> </div>  | 🟢 200 | \${((t1 - t0) / 1000).toPrecision(3)}s |\\n\``}\n`;
+        inFile += `		 output += \`${`| [\${${className}.name}](${provider.baseUrl})  | 🟢 200 | \${((t1 - t0) / 1000).toPrecision(3)}s |\\n\``}\n`;
         inFile += '	}\n';
         inFile += `	else {\n`;
-        inFile += `		 output += \`${`|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="${provider.logo}" width="25" height="25"><a style="text-align: center;" href="${provider.baseUrl}">\${${className}.name}</a> </div>  | 🔴 500 | \${((t1 - t0) / 1000).toPrecision(3)}s |\\n\``}\n`;
+        inFile += `		 output += \`${`|  [\${${className}.name}](${provider.baseUrl})  | 🔴 500 | \${((t1 - t0) / 1000).toPrecision(3)}s |\\n\``}\n`;
         inFile += '	}\n';
       } else if (className == 'GetComics') {
         inFile += `	if (${className}Res.containers){\n`;
-        inFile += `		 output += \`${`|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="${provider.logo}" width="25" height="25"><a style="text-align: center;" href="${provider.baseUrl}">\${${className}.name}</a> </div>  | 🟢 200 | \${((t1 - t0) / 1000).toPrecision(3)}s |\\n\``}\n`;
+        inFile += `		 output += \`${`|  [\${${className}.name}](${provider.baseUrl})  | 🟢 200 | \${((t1 - t0) / 1000).toPrecision(3)}s |\\n\``}\n`;
         inFile += '	}\n';
         inFile += `	else {\n`;
-        inFile += `		 output += \`${`|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="${provider.logo}" width="25" height="25"><a style="text-align: center;" href="${provider.baseUrl}">\${${className}.name}</a> </div>  | 🔴 500 | \${((t1 - t0) / 1000).toPrecision(3)}s |\\n\``}\n`;
+        inFile += `		 output += \`${`|  [\${${className}.name}](${provider.baseUrl})  | 🔴 500 | \${((t1 - t0) / 1000).toPrecision(3)}s |\\n\``}\n`;
         inFile += '	}\n';
       } else {
         inFile += `	if (${className}Res.results){\n`;
-        inFile += `		 output += \`${`|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="${provider.logo}" width="25" height="25"><a style="text-align: center;" href="${provider.baseUrl}">\${${className}.name}</a> </div>  | 🟢 200 | \${((t1 - t0) / 1000).toPrecision(3)}s |\\n\``}\n`;
+        inFile += `		 output += \`${`|  [\${${className}.name}](${provider.baseUrl})  | 🟢 200 | \${((t1 - t0) / 1000).toPrecision(3)}s |\\n\``}\n`;
         inFile += '	}\n';
         inFile += `	else {\n`;
-        inFile += `		 output += \`${`|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="${provider.logo}" width="25" height="25"><a style="text-align: center;" href="${provider.baseUrl}">\${${className}.name}</a> </div>  | 🔴 500 | \${((t1 - t0) / 1000).toPrecision(3)}s |\\n\``}\n`;
+        inFile += `		 output += \`${`|  [\${${className}.name}](${provider.baseUrl})  | 🔴 500 | \${((t1 - t0) / 1000).toPrecision(3)}s |\\n\``}\n`;
         inFile += '	}\n';
       }
 
       inFile += '} catch (e) {\n';
-      inFile += `	 output += \`${`| <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="${provider.logo}" width="25" height="25"><a style="text-align: center;" href="${provider.baseUrl}">\${${className}.name}</a> </div> | 🔴 500 | 0s |\\n\``}\n`;
+      inFile += `	 output += \`${`| [\${${className}.name}](${provider.baseUrl}) | 🔴 500 | 0s |\\n\``}\n`;
       inFile += '	}';
       output += inFile + '\n';
     }
