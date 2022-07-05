@@ -14,13 +14,13 @@ const start = async() => {
 	 const NineAnimeRes = await NineAnime.search("One Piece")
 	 t1 = performance.now()
 	if (NineAnimeRes.results){
-		 output += `|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://d1nxzqpcg2bym0.cloudfront.net/google_play/com.my.nineanime/87b2fe48-9c36-11eb-8292-21241b1c199b/128x128" width="25" height="25"><a style="text-align: center;" href="https://9anime.to">${NineAnime.name}</a> </div>  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${NineAnime.name}](https://9anime.to)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 	else {
-		 output += `|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://d1nxzqpcg2bym0.cloudfront.net/google_play/com.my.nineanime/87b2fe48-9c36-11eb-8292-21241b1c199b/128x128" width="25" height="25"><a style="text-align: center;" href="https://9anime.to">${NineAnime.name}</a> </div>  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${NineAnime.name}](https://9anime.to)  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 } catch (e) {
-	 output += `| <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://d1nxzqpcg2bym0.cloudfront.net/google_play/com.my.nineanime/87b2fe48-9c36-11eb-8292-21241b1c199b/128x128" width="25" height="25"><a style="text-align: center;" href="https://9anime.to">${NineAnime.name}</a> </div> | 🔴 500 | 0s |\n`
+	 output += `| [${NineAnime.name}](https://9anime.to) | 🔴 500 | 0s |\n`
 	}
 	const Gogoanime = new ANIME.Gogoanime()
  try {
@@ -28,13 +28,13 @@ const start = async() => {
 	 const GogoanimeRes = await Gogoanime.search("One Piece")
 	 t1 = performance.now()
 	if (GogoanimeRes.results){
-		 output += `|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://i0.wp.com/cloudfuji.com/wp-content/uploads/2021/12/gogoanime.png?fit=300%2C400&ssl=1" width="25" height="25"><a style="text-align: center;" href="https://gogoanime.gg">${Gogoanime.name}</a> </div>  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${Gogoanime.name}](https://gogoanime.gg)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 	else {
-		 output += `|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://i0.wp.com/cloudfuji.com/wp-content/uploads/2021/12/gogoanime.png?fit=300%2C400&ssl=1" width="25" height="25"><a style="text-align: center;" href="https://gogoanime.gg">${Gogoanime.name}</a> </div>  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${Gogoanime.name}](https://gogoanime.gg)  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 } catch (e) {
-	 output += `| <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://i0.wp.com/cloudfuji.com/wp-content/uploads/2021/12/gogoanime.png?fit=300%2C400&ssl=1" width="25" height="25"><a style="text-align: center;" href="https://gogoanime.gg">${Gogoanime.name}</a> </div> | 🔴 500 | 0s |\n`
+	 output += `| [${Gogoanime.name}](https://gogoanime.gg) | 🔴 500 | 0s |\n`
 	}
 	const MangaDex = new MANGA.MangaDex()
  try {
@@ -42,13 +42,13 @@ const start = async() => {
 	 const MangaDexRes = await MangaDex.search("A")
 	 t1 = performance.now()
 	if (MangaDexRes.results){
-		 output += `|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2F1391016345714757632%2Fxbt_jW78.jpg" width="25" height="25"><a style="text-align: center;" href="https://mangadex.org">${MangaDex.name}</a> </div>  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${MangaDex.name}](https://mangadex.org)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 	else {
-		 output += `|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2F1391016345714757632%2Fxbt_jW78.jpg" width="25" height="25"><a style="text-align: center;" href="https://mangadex.org">${MangaDex.name}</a> </div>  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${MangaDex.name}](https://mangadex.org)  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 } catch (e) {
-	 output += `| <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2F1391016345714757632%2Fxbt_jW78.jpg" width="25" height="25"><a style="text-align: center;" href="https://mangadex.org">${MangaDex.name}</a> </div> | 🔴 500 | 0s |\n`
+	 output += `| [${MangaDex.name}](https://mangadex.org) | 🔴 500 | 0s |\n`
 	}
 	const Libgen = new BOOKS.Libgen()
  try {
@@ -56,13 +56,13 @@ const start = async() => {
 	 const LibgenRes = await Libgen.search("One Hundred Years of Solitude")
 	 t1 = performance.now()
 	if (LibgenRes){
-		 output += `| <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://f-droid.org/repo/com.manuelvargastapia.libgen/en-US/icon_TP2ezvMwW5ovE-wixagF1WCThMUohX3T_kzYhuZQ8aY=.png" width="25" height="25"><a style="text-align: center;" href="http://libgen">${Libgen.name}</a> </div>  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `| [${Libgen.name}](http://libgen)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 	else {
-		 output += `|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://f-droid.org/repo/com.manuelvargastapia.libgen/en-US/icon_TP2ezvMwW5ovE-wixagF1WCThMUohX3T_kzYhuZQ8aY=.png" width="25" height="25"><a style="text-align: center;" href="http://libgen">${Libgen.name}</a> </div>  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${Libgen.name}](http://libgen)  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 } catch (e) {
-	 output += `| <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://f-droid.org/repo/com.manuelvargastapia.libgen/en-US/icon_TP2ezvMwW5ovE-wixagF1WCThMUohX3T_kzYhuZQ8aY=.png" width="25" height="25"><a style="text-align: center;" href="http://libgen">${Libgen.name}</a> </div> | 🔴 500 | 0s |\n`
+	 output += `| [${Libgen.name}](http://libgen) | 🔴 500 | 0s |\n`
 	}
 	const GetComics = new COMICS.GetComics()
  try {
@@ -70,13 +70,13 @@ const start = async() => {
 	 const GetComicsRes = await GetComics.search("batman")
 	 t1 = performance.now()
 	if (GetComicsRes.containers){
-		 output += `|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.18172-8/10923821_1548503832063793_2041220008970231476_o.png?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=aQyuLlPZtQAAX8dJviD&_nc_ht=scontent-lga3-1.xx&oh=00_AT_yPS4uuNDGirSqXnTwl2VGS9leFv4-Ujt7l6l5_FZeLw&oe=62D00D68" width="25" height="25"><a style="text-align: center;" href="https://getcomics.info/">${GetComics.name}</a> </div>  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${GetComics.name}](https://getcomics.info/)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 	else {
-		 output += `|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.18172-8/10923821_1548503832063793_2041220008970231476_o.png?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=aQyuLlPZtQAAX8dJviD&_nc_ht=scontent-lga3-1.xx&oh=00_AT_yPS4uuNDGirSqXnTwl2VGS9leFv4-Ujt7l6l5_FZeLw&oe=62D00D68" width="25" height="25"><a style="text-align: center;" href="https://getcomics.info/">${GetComics.name}</a> </div>  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${GetComics.name}](https://getcomics.info/)  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 } catch (e) {
-	 output += `| <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.18172-8/10923821_1548503832063793_2041220008970231476_o.png?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=aQyuLlPZtQAAX8dJviD&_nc_ht=scontent-lga3-1.xx&oh=00_AT_yPS4uuNDGirSqXnTwl2VGS9leFv4-Ujt7l6l5_FZeLw&oe=62D00D68" width="25" height="25"><a style="text-align: center;" href="https://getcomics.info/">${GetComics.name}</a> </div> | 🔴 500 | 0s |\n`
+	 output += `| [${GetComics.name}](https://getcomics.info/) | 🔴 500 | 0s |\n`
 	}
 	const ReadLightNovels = new LIGHT_NOVELS.ReadLightNovels()
  try {
@@ -84,13 +84,13 @@ const start = async() => {
 	 const ReadLightNovelsRes = await ReadLightNovels.search("classroom of the elite")
 	 t1 = performance.now()
 	if (ReadLightNovelsRes.results){
-		 output += `|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://i.imgur.com/RDPjbc6.png" width="25" height="25"><a style="text-align: center;" href="https://readlightnovels.net">${ReadLightNovels.name}</a> </div>  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${ReadLightNovels.name}](https://readlightnovels.net)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 	else {
-		 output += `|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://i.imgur.com/RDPjbc6.png" width="25" height="25"><a style="text-align: center;" href="https://readlightnovels.net">${ReadLightNovels.name}</a> </div>  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${ReadLightNovels.name}](https://readlightnovels.net)  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 } catch (e) {
-	 output += `| <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://i.imgur.com/RDPjbc6.png" width="25" height="25"><a style="text-align: center;" href="https://readlightnovels.net">${ReadLightNovels.name}</a> </div> | 🔴 500 | 0s |\n`
+	 output += `| [${ReadLightNovels.name}](https://readlightnovels.net) | 🔴 500 | 0s |\n`
 	}
 	const FlixHQ = new MOVIES.FlixHQ()
  try {
@@ -98,13 +98,13 @@ const start = async() => {
 	 const FlixHQRes = await FlixHQ.search("batman")
 	 t1 = performance.now()
 	if (FlixHQRes.results){
-		 output += `|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://img.flixhq.to/xxrz/400x400/100/ab/5f/ab5f0e1996cc5b71919e10e910ad593e/ab5f0e1996cc5b71919e10e910ad593e.png" width="25" height="25"><a style="text-align: center;" href="https://flixhq.to">${FlixHQ.name}</a> </div>  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${FlixHQ.name}](https://flixhq.to)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 	else {
-		 output += `|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://img.flixhq.to/xxrz/400x400/100/ab/5f/ab5f0e1996cc5b71919e10e910ad593e/ab5f0e1996cc5b71919e10e910ad593e.png" width="25" height="25"><a style="text-align: center;" href="https://flixhq.to">${FlixHQ.name}</a> </div>  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${FlixHQ.name}](https://flixhq.to)  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 } catch (e) {
-	 output += `| <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://img.flixhq.to/xxrz/400x400/100/ab/5f/ab5f0e1996cc5b71919e10e910ad593e/ab5f0e1996cc5b71919e10e910ad593e.png" width="25" height="25"><a style="text-align: center;" href="https://flixhq.to">${FlixHQ.name}</a> </div> | 🔴 500 | 0s |\n`
+	 output += `| [${FlixHQ.name}](https://flixhq.to) | 🔴 500 | 0s |\n`
 	}
 fs.writeFileSync('./README.md', output)}
 

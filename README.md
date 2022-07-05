@@ -1,9 +1,9 @@
 | **provider** | **Status** | **Time** |
 |:--------:|:------:|:----:|
-| <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://d1nxzqpcg2bym0.cloudfront.net/google_play/com.my.nineanime/87b2fe48-9c36-11eb-8292-21241b1c199b/128x128" width="25" height="25"><a style="text-align: center;" href="https://9anime.to">9Anime</a> </div> | 🔴 500 | 0s |
-|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://i0.wp.com/cloudfuji.com/wp-content/uploads/2021/12/gogoanime.png?fit=300%2C400&ssl=1" width="25" height="25"><a style="text-align: center;" href="https://gogoanime.gg">Gogoanime</a> </div>  | 🟢 200 | 0.649s |
-|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2F1391016345714757632%2Fxbt_jW78.jpg" width="25" height="25"><a style="text-align: center;" href="https://mangadex.org">MangaDex</a> </div>  | 🟢 200 | 0.622s |
-| <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://f-droid.org/repo/com.manuelvargastapia.libgen/en-US/icon_TP2ezvMwW5ovE-wixagF1WCThMUohX3T_kzYhuZQ8aY=.png" width="25" height="25"><a style="text-align: center;" href="http://libgen">Libgen</a> </div> | 🔴 500 | 0s |
-|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.18172-8/10923821_1548503832063793_2041220008970231476_o.png?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=aQyuLlPZtQAAX8dJviD&_nc_ht=scontent-lga3-1.xx&oh=00_AT_yPS4uuNDGirSqXnTwl2VGS9leFv4-Ujt7l6l5_FZeLw&oe=62D00D68" width="25" height="25"><a style="text-align: center;" href="https://getcomics.info/">GetComics</a> </div>  | 🟢 200 | 3.64s |
-|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://i.imgur.com/RDPjbc6.png" width="25" height="25"><a style="text-align: center;" href="https://readlightnovels.net">Read Light Novels</a> </div>  | 🟢 200 | 0.858s |
-|  <div style="float: left; display: flex;" > <img style="border-radius: 50%; margin-right: 7px" src="https://img.flixhq.to/xxrz/400x400/100/ab/5f/ab5f0e1996cc5b71919e10e910ad593e/ab5f0e1996cc5b71919e10e910ad593e.png" width="25" height="25"><a style="text-align: center;" href="https://flixhq.to">FlixHQ</a> </div>  | 🟢 200 | 0.423s |
+| [9Anime](https://9anime.to) | 🔴 500 | 0s |
+|  [Gogoanime](https://gogoanime.gg)  | 🟢 200 | 0.371s |
+|  [MangaDex](https://mangadex.org)  | 🟢 200 | 0.519s |
+| [Libgen](http://libgen) | 🔴 500 | 0s |
+|  [GetComics](https://getcomics.info/)  | 🟢 200 | 3.35s |
+|  [Read Light Novels](https://readlightnovels.net)  | 🟢 200 | 0.725s |
+|  [FlixHQ](https://flixhq.to)  | 🟢 200 | 0.950s |
