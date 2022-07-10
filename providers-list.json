@@ -11,6 +11,15 @@
         "isWorking": false
       },
       {
+        "name": "AnimePahe",
+        "baseUrl": "https://animepahe.com",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "hhttps://animepahe.com/pikacon.ico",
+        "classPath": "ANIME.AnimePahe",
+        "isWorking": true
+      },
+      {
         "name": "Gogoanime",
         "baseUrl": "https://gogoanime.gg",
         "lang": "en",
