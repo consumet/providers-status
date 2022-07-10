@@ -22,6 +22,20 @@ const start = async() => {
 } catch (e) {
 	 output += `| [${NineAnime.name}](https://9anime.to) | 🔴 500 | 0s |\n`
 	}
+	const AnimePahe = new ANIME.AnimePahe()
+ try {
+	t0 = performance.now()
+	 const AnimePaheRes = await AnimePahe.search("One Piece")
+	 t1 = performance.now()
+	if (AnimePaheRes.results){
+		 output += `|  [${AnimePahe.name}](https://animepahe.com)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+	}
+	else {
+		 output += `|  [${AnimePahe.name}](https://animepahe.com)  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+	}
+} catch (e) {
+	 output += `| [${AnimePahe.name}](https://animepahe.com) | 🔴 500 | 0s |\n`
+	}
 	const Gogoanime = new ANIME.Gogoanime()
  try {
 	t0 = performance.now()
