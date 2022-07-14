@@ -15,7 +15,7 @@
         "baseUrl": "https://animepahe.com",
         "lang": "en",
         "isNSFW": false,
-        "logo": "hhttps://animepahe.com/pikacon.ico",
+        "logo": "https://animepahe.com/pikacon.ico",
         "classPath": "ANIME.AnimePahe",
         "isWorking": true
       },
@@ -91,6 +91,19 @@
         "isNSFW": false,
         "logo": "https://img.flixhq.to/xxrz/400x400/100/ab/5f/ab5f0e1996cc5b71919e10e910ad593e/ab5f0e1996cc5b71919e10e910ad593e.png",
         "classPath": "MOVIES.FlixHQ",
+        "isWorking": true
+      }
+    ]
+  },
+  {
+    "META": [
+      {
+        "name": "AnimePahe",
+        "baseUrl": "https://anilist.co/",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://anilist.co/img/icons/icon.svg",
+        "classPath": "META.Anilist",
         "isWorking": true
       }
     ]

@@ -3,8 +3,8 @@
 
 
 "@consumet/extensions@git+https://github.com/consumet/extensions.git":
-  version "1.0.3"
-  resolved "git+https://github.com/consumet/extensions.git#e3ca4b34b2768310883de84e51ae65920b392860"
+  version "1.0.4"
+  resolved "git+https://github.com/consumet/extensions.git#73d2f27e4a4294f35e334680cc6d79d0c0e5143b"
   dependencies:
     ascii-url-encoder "^1.2.0"
     axios "^0.27.2"
@@ -272,9 +272,9 @@ parse5@^7.0.0:
     entities "^4.3.0"
 
 ts-node@^10.8.1:
-  version "10.8.2"
-  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.8.2.tgz#3185b75228cef116bf82ffe8762594f54b2a23f2"
-  integrity sha512-LYdGnoGddf1D6v8REPtIH+5iq/gTDuZqv2/UJUU7tKjuEU8xVZorBM+buCGNjj+pGEud+sOoM4CX3/YzINpENA==
+  version "10.9.1"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.9.1.tgz#e73de9102958af9e1f0b168a6ff320e25adcff4b"
+  integrity sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==
   dependencies:
     "@cspotcode/source-map-support" "^0.8.0"
     "@tsconfig/node10" "^1.0.7"
