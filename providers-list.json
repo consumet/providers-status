@@ -40,6 +40,15 @@
         "logo": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2F1391016345714757632%2Fxbt_jW78.jpg",
         "classPath": "MANGA.MangaDex",
         "isWorking": true
+      },
+      {
+        "name": "MangaHere",
+        "baseUrl": "http://www.mangahere.cc",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://i.pinimg.com/564x/51/08/62/51086247ed16ff8abae2df0bb06448e4.jpg",
+        "classPath": "MANGA.MangaHere",
+        "isWorking": true
       }
     ]
   },
@@ -98,7 +107,7 @@
   {
     "META": [
       {
-        "name": "AnimePahe",
+        "name": "AnilistWithKitsu",
         "baseUrl": "https://anilist.co/",
         "lang": "en",
         "isNSFW": false,
