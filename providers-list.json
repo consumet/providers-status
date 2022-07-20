@@ -37,7 +37,7 @@
         "baseUrl": "https://mangadex.org",
         "lang": "en",
         "isNSFW": false,
-        "logo": "https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2F1391016345714757632%2Fxbt_jW78.jpg",
+        "logo": "https://pbs.twimg.com/profile_images/1391016345714757632/xbt_jW78_400x400.jpg",
         "classPath": "MANGA.MangaDex",
         "isWorking": true
       },
@@ -48,6 +48,15 @@
         "isNSFW": false,
         "logo": "https://i.pinimg.com/564x/51/08/62/51086247ed16ff8abae2df0bb06448e4.jpg",
         "classPath": "MANGA.MangaHere",
+        "isWorking": true
+      },
+      {
+        "name": "MangaKakalot",
+        "baseUrl": "https://mangakakalot.com",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://scontent-lga3-1.xx.fbcdn.net/v/t31.18172-8/23592342_1993674674222540_3098972633173711780_o.png?stp=cp0_dst-png_p64x64&_nc_cat=105&ccb=1-7&_nc_sid=85a577&_nc_ohc=j_WvAOX4tOwAX9dNL_4&_nc_ht=scontent-lga3-1.xx&oh=00_AT-ZFkuaHiS33j-oUCtn-jzwkLfVuCONx0aqF3QXrcFKvg&oe=62FC016C",
+        "classPath": "MANGA.MangaKakalot",
         "isWorking": true
       }
     ]
