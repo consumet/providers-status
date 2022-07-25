@@ -27,6 +27,15 @@
         "logo": "https://i0.wp.com/cloudfuji.com/wp-content/uploads/2021/12/gogoanime.png?fit=300%2C400&ssl=1",
         "classPath": "ANIME.Gogoanime",
         "isWorking": true
+      },
+      {
+        "name": "Zoro",
+        "baseUrl": "https://zoro.to",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg",
+        "classPath": "ANIME.Zoro",
+        "isWorking": true
       }
     ]
   },
@@ -120,7 +129,7 @@
         "baseUrl": "https://anilist.co/",
         "lang": "en",
         "isNSFW": false,
-        "logo": "https://anilist.co/img/icons/icon.svg",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/AniList_logo.svg",
         "classPath": "META.Anilist",
         "isWorking": true
       }
