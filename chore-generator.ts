@@ -50,6 +50,20 @@ const start = async() => {
 } catch (e) {
 	 output += `| [${Gogoanime.name}](https://gogoanime.gg) | 🔴 500 | 0s |\n`
 	}
+	const Zoro = new ANIME.Zoro()
+ try {
+	t0 = performance.now()
+	 const ZoroRes = await Zoro.search("One Piece")
+	 t1 = performance.now()
+	if (ZoroRes.results){
+		 output += `|  [${Zoro.name}](https://zoro.to)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+	}
+	else {
+		 output += `|  [${Zoro.name}](https://zoro.to)  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+	}
+} catch (e) {
+	 output += `| [${Zoro.name}](https://zoro.to) | 🔴 500 | 0s |\n`
+	}
 	const MangaDex = new MANGA.MangaDex()
  try {
 	t0 = performance.now()
