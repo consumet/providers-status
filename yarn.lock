@@ -3,14 +3,15 @@
 
 
 "@consumet/extensions@git+https://github.com/consumet/extensions.git":
-  version "1.0.7"
-  resolved "git+https://github.com/consumet/extensions.git#9b01f7d34af9c1bcb114e66e886ad147e1f2b38b"
+  version "1.0.8"
+  resolved "git+https://github.com/consumet/extensions.git#12ddd77297d77cfbd375519d53c76ad046c8849d"
   dependencies:
     ascii-url-encoder "^1.2.0"
     axios "^0.27.2"
     cheerio "^1.0.0-rc.11"
     crypto-js "^4.1.1"
     form-data "^4.0.0"
+    ws "^8.8.1"
 
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
@@ -299,6 +300,11 @@ v8-compile-cache-lib@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
+
+ws@^8.8.1:
+  version "8.8.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.8.1.tgz#5dbad0feb7ade8ecc99b830c1d77c913d4955ff0"
+  integrity sha512-bGy2JzvzkPowEJV++hF07hAD6niYSr0JzBNo/J29WsB57A2r7Wlc1UFcTR9IzrPvuNVO4B8LGqF8qcpsVOhJCA==
 
 yn@3.1.1:
   version "3.1.1"
