@@ -36,6 +36,20 @@ const start = async() => {
 } catch (e) {
 	 output += `| [${AniMixPlay.name}](https://animixplay.to) | 🔴 500 | 0s |\n`
 	}
+	const AnimeFox = new ANIME.AnimeFox()
+ try {
+	t0 = performance.now()
+	 const AnimeFoxRes = await AnimeFox.search("One Piece")
+	 t1 = performance.now()
+	if (AnimeFoxRes.results){
+		 output += `|  [${AnimeFox.name}](https://animefox.tv)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+	}
+	else {
+		 output += `|  [${AnimeFox.name}](https://animefox.tv)  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+	}
+} catch (e) {
+	 output += `| [${AnimeFox.name}](https://animefox.tv) | 🔴 500 | 0s |\n`
+	}
 	const AnimePahe = new ANIME.AnimePahe()
  try {
 	t0 = performance.now()
