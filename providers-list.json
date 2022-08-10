@@ -20,6 +20,15 @@
         "isWorking": true
       },
       {
+        "name": "AnimeFox",
+        "baseUrl": "https://animefox.tv",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://animefox.tv/assets/images/logo.png",
+        "classPath": "ANIME.AnimeFox",
+        "isWorking": true
+      },
+      {
         "name": "AnimePahe",
         "baseUrl": "https://animepahe.com",
         "lang": "en",
