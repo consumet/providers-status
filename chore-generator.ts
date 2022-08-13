@@ -64,6 +64,20 @@ const start = async() => {
 } catch (e) {
 	 output += `| [${AnimePahe.name}](https://animepahe.com) | 🔴 500 | 0s |\n`
 	}
+	const Enime = new ANIME.Enime()
+ try {
+	t0 = performance.now()
+	 const EnimeRes = await Enime.search("One Piece")
+	 t1 = performance.now()
+	if (EnimeRes.results){
+		 output += `|  [${Enime.name}](https://enime.moe)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+	}
+	else {
+		 output += `|  [${Enime.name}](https://enime.moe)  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+	}
+} catch (e) {
+	 output += `| [${Enime.name}](https://enime.moe) | 🔴 500 | 0s |\n`
+	}
 	const Gogoanime = new ANIME.Gogoanime()
  try {
 	t0 = performance.now()
@@ -196,13 +210,13 @@ const start = async() => {
 	 const AnilistRes = await Anilist.search("A")
 	 t1 = performance.now()
 	if (AnilistRes.results){
-		 output += `|  [${Anilist.name}](https://anilist.co/)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${Anilist.name}](https://anilist.co)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 	else {
-		 output += `|  [${Anilist.name}](https://anilist.co/)  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${Anilist.name}](https://anilist.co)  | 🔴 500 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 } catch (e) {
-	 output += `| [${Anilist.name}](https://anilist.co/) | 🔴 500 | 0s |\n`
+	 output += `| [${Anilist.name}](https://anilist.co) | 🔴 500 | 0s |\n`
 	}
 fs.writeFileSync('./README.md', output)}
 
