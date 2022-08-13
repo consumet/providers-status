@@ -38,6 +38,15 @@
         "isWorking": true
       },
       {
+        "name": "Enime",
+        "baseUrl": "https://enime.moe",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://enime.moe/favicon.ico",
+        "classPath": "ANIME.Enime",
+        "isWorking": true
+      },
+      {
         "name": "Gogoanime",
         "baseUrl": "https://gogoanime.gg",
         "lang": "en",
@@ -144,7 +153,7 @@
     "META": [
       {
         "name": "AnilistWithKitsu",
-        "baseUrl": "https://anilist.co/",
+        "baseUrl": "https://anilist.co",
         "lang": "en",
         "isNSFW": false,
         "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/AniList_logo.svg",
