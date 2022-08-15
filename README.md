@@ -1,17 +1,17 @@
 | **provider** | **Status** | **Time** |
 |:--------:|:------:|:----:|
-|  [9Anime](https://9anime.to)  | 🟢 200 | 0.426s |
-|  [AniMixPlay](https://animixplay.to)  | 🟢 200 | 0.501s |
-|  [AnimeFox](https://animefox.tv)  | 🟢 200 | 0.519s |
+|  [9Anime](https://9anime.to)  | 🟢 200 | 0.453s |
+|  [AniMixPlay](https://animixplay.to)  | 🟢 200 | 0.448s |
+|  [AnimeFox](https://animefox.tv)  | 🟢 200 | 0.492s |
 | [AnimePahe](https://animepahe.com) | 🔴 500 | 0s |
 | [Enime](https://enime.moe) | 🔴 500 | 0s |
-|  [Gogoanime](https://gogoanime.gg)  | 🟢 200 | 0.615s |
-|  [Zoro](https://zoro.to)  | 🟢 200 | 0.449s |
-|  [MangaDex](https://mangadex.org)  | 🟢 200 | 0.540s |
-|  [MangaHere](http://www.mangahere.cc)  | 🟢 200 | 0.291s |
-|  [MangaKakalot](https://mangakakalot.com)  | 🟢 200 | 0.588s |
+|  [Gogoanime](https://gogoanime.gg)  | 🟢 200 | 1.42s |
+|  [Zoro](https://zoro.to)  | 🟢 200 | 0.660s |
+|  [MangaDex](https://mangadex.org)  | 🟢 200 | 0.605s |
+|  [MangaHere](http://www.mangahere.cc)  | 🟢 200 | 0.376s |
+|  [MangaKakalot](https://mangakakalot.com)  | 🟢 200 | 0.852s |
 | [Libgen](http://libgen) | 🔴 500 | 0s |
-|  [GetComics](https://getcomics.info/)  | 🟢 200 | 6.24s |
-|  [Read Light Novels](https://readlightnovels.net)  | 🟢 200 | 0.474s |
-|  [FlixHQ](https://flixhq.to)  | 🟢 200 | 0.564s |
-|  [AnilistWithKitsu](https://anilist.co)  | 🟢 200 | 0.135s |
+|  [GetComics](https://getcomics.info/)  | 🟢 200 | 11.6s |
+|  [Read Light Novels](https://readlightnovels.net)  | 🟢 200 | 0.593s |
+|  [FlixHQ](https://flixhq.to)  | 🟢 200 | 0.946s |
+|  [AnilistWithKitsu](https://anilist.co)  | 🟢 200 | 0.225s |
