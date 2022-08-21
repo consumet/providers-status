@@ -152,7 +152,7 @@
   {
     "META": [
       {
-        "name": "AnilistWithKitsu",
+        "name": "Anilist",
         "baseUrl": "https://anilist.co",
         "lang": "en",
         "isNSFW": false,
