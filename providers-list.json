@@ -150,6 +150,19 @@
     ]
   },
   {
+    "NEWS": [
+      {
+        "name": "Anime News Network",
+        "baseUrl": "https://www.animenewsnetwork.com",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://i.imgur.com/KkkVr1g.png",
+        "classPath": "NEWS.ANN",
+        "isWorking": true
+      }
+    ]
+  },
+  {
     "META": [
       {
         "name": "Anilist",
