@@ -8,7 +8,7 @@
         "isNSFW": false,
         "logo": "https://d1nxzqpcg2bym0.cloudfront.net/google_play/com.my.nineanime/87b2fe48-9c36-11eb-8292-21241b1c199b/128x128",
         "classPath": "ANIME.NineAnime",
-        "isWorking": true
+        "isWorking": false
       },
       {
         "name": "AniMixPlay",
@@ -93,6 +93,15 @@
         "isNSFW": false,
         "logo": "https://scontent-lga3-1.xx.fbcdn.net/v/t31.18172-8/23592342_1993674674222540_3098972633173711780_o.png?stp=cp0_dst-png_p64x64&_nc_cat=105&ccb=1-7&_nc_sid=85a577&_nc_ohc=j_WvAOX4tOwAX9dNL_4&_nc_ht=scontent-lga3-1.xx&oh=00_AT-ZFkuaHiS33j-oUCtn-jzwkLfVuCONx0aqF3QXrcFKvg&oe=62FC016C",
         "classPath": "MANGA.MangaKakalot",
+        "isWorking": true
+      },
+      {
+        "name": "Mangasee123",
+        "baseUrl": "https://mangasee123.com",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://scontent.fman4-1.fna.fbcdn.net/v/t1.6435-1/80033336_1830005343810810_419412485691408384_n.png?stp=dst-png_p148x148&_nc_cat=104&ccb=1-7&_nc_sid=1eb0c7&_nc_ohc=XpeoABDI-sEAX-5hLFV&_nc_ht=scontent.fman4-1.fna&oh=00_AT9nIRz5vPiNqqzNpSg2bJymX22rZ1JumYTKBqg_cD0Alg&oe=6317290E",
+        "classPath": "MANGA.Mangasee123",
         "isWorking": true
       }
     ]
