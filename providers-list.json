@@ -38,6 +38,15 @@
         "isWorking": true
       },
       {
+        "name": "Bilibili",
+        "baseUrl": "https://bilibili.tv",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://www.apksforfree.com/wp-content/uploads/2021/10/oie_1413343NvdZCZR5.png",
+        "classPath": "ANIME.Bilibili",
+        "isWorking": true
+      },
+      {
         "name": "Crunchyroll",
         "baseUrl": "https://api.kamyroll.tech",
         "lang": "en",
