@@ -121,6 +121,15 @@
         "logo": "https://scontent.fman4-1.fna.fbcdn.net/v/t1.6435-1/80033336_1830005343810810_419412485691408384_n.png?stp=dst-png_p148x148&_nc_cat=104&ccb=1-7&_nc_sid=1eb0c7&_nc_ohc=XpeoABDI-sEAX-5hLFV&_nc_ht=scontent.fman4-1.fna&oh=00_AT9nIRz5vPiNqqzNpSg2bJymX22rZ1JumYTKBqg_cD0Alg&oe=6317290E",
         "classPath": "MANGA.Mangasee123",
         "isWorking": true
+      },
+      {
+        "name": "Mangapark",
+        "baseUrl": "https://v2.mangapark.net",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://raw.githubusercontent.com/tachiyomiorg/tachiyomi-extensions/repo/icon/tachiyomi-en.mangapark-v1.3.23.png",
+        "classPath": "MANGA.Mangapark",
+        "isWorking": true
       }
     ]
   },
