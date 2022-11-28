@@ -42,7 +42,7 @@
         "baseUrl": "https://bilibili.tv",
         "lang": "en",
         "isNSFW": false,
-        "logo": "https://www.apksforfree.com/wp-content/uploads/2021/10/oie_1413343NvdZCZR5.png",
+        "logo": "https://w7.pngwing.com/pngs/656/356/png-transparent-bilibili-thumbnail-social-media-icons.png",
         "classPath": "ANIME.Bilibili",
         "isWorking": true
       },
@@ -51,7 +51,7 @@
         "baseUrl": "https://api.kamyroll.tech",
         "lang": "en",
         "isNSFW": false,
-        "logo": "https://user-images.githubusercontent.com/65111632/95666535-4f6dba80-0ba6-11eb-8583-e3a2074590e9.png",
+        "logo": "https://play-lh.googleusercontent.com/CjzbMcLbmTswzCGauGQExkFsSHvwjKEeWLbVVJx0B-J9G6OQ-UCl2eOuGBfaIozFqow",
         "classPath": "ANIME.Crunchyroll",
         "isWorking": true
       },
@@ -69,7 +69,7 @@
         "baseUrl": "https://www.gogoanime.dk",
         "lang": "en",
         "isNSFW": false,
-        "logo": "https://i0.wp.com/cloudfuji.com/wp-content/uploads/2021/12/gogoanime.png?fit=300%2C400&ssl=1",
+        "logo": "https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0",
         "classPath": "ANIME.Gogoanime",
         "isWorking": true
       },
@@ -181,6 +181,15 @@
         "isNSFW": false,
         "logo": "https://img.flixhq.to/xxrz/400x400/100/ab/5f/ab5f0e1996cc5b71919e10e910ad593e/ab5f0e1996cc5b71919e10e910ad593e.png",
         "classPath": "MOVIES.FlixHQ",
+        "isWorking": true
+      },
+      {
+        "name": "ViewAsian",
+        "baseUrl": "https://viewasian.co",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://viewasian.co/images/logo.png",
+        "classPath": "MOVIES.ViewAsian",
         "isWorking": true
       }
     ]
