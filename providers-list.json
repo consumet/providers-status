@@ -114,6 +114,24 @@
         "isWorking": true
       },
       {
+        "name": "MangaPill",
+        "baseUrl": "https://mangapill.com",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "",
+        "classPath": "MANGA.MangaPill",
+        "isWorking": true
+      },
+      {
+        "name": "MangaReader",
+        "baseUrl": "https://mangareader.to",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://pbs.twimg.com/profile_images/1437311892905545728/TO0hFfUr_400x400.jpg",
+        "classPath": "MANGA.MangaReader",
+        "isWorking": true
+      },
+      {
         "name": "MangaSee",
         "baseUrl": "https://mangasee123.com",
         "lang": "en",
