@@ -11,15 +11,6 @@
         "isWorking": false
       },
       {
-        "name": "AniMixPlay",
-        "baseUrl": "https://animixplay.to",
-        "lang": "en",
-        "isNSFW": false,
-        "logo": "https://www.apksforfree.com/wp-content/uploads/2021/10/oie_1413343NvdZCZR5.png",
-        "classPath": "ANIME.AniMixPlay",
-        "isWorking": true
-      },
-      {
         "name": "AnimeFox",
         "baseUrl": "https://animefox.tv",
         "lang": "en",
