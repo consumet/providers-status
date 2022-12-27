@@ -38,15 +38,6 @@
         "isWorking": true
       },
       {
-        "name": "Crunchyroll",
-        "baseUrl": "https://api.kamyroll.tech",
-        "lang": "en",
-        "isNSFW": false,
-        "logo": "https://play-lh.googleusercontent.com/CjzbMcLbmTswzCGauGQExkFsSHvwjKEeWLbVVJx0B-J9G6OQ-UCl2eOuGBfaIozFqow",
-        "classPath": "ANIME.Crunchyroll",
-        "isWorking": true
-      },
-      {
         "name": "Enime",
         "baseUrl": "https://enime.moe",
         "lang": "en",
@@ -62,6 +53,15 @@
         "isNSFW": false,
         "logo": "https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0",
         "classPath": "ANIME.Gogoanime",
+        "isWorking": true
+      },
+      {
+        "name": "Kamyroll",
+        "baseUrl": "https://api.kamyroll.tech",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://play-lh.googleusercontent.com/CjzbMcLbmTswzCGauGQExkFsSHvwjKEeWLbVVJx0B-J9G6OQ-UCl2eOuGBfaIozFqow",
+        "classPath": "ANIME.Kamyroll",
         "isWorking": true
       },
       {
@@ -184,6 +184,15 @@
   {
     "MOVIES": [
       {
+        "name": "Dramacool",
+        "baseUrl": "https://www1.dramacool.cr",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://editorialge.com/media/2021/12/Dramacool.jpg",
+        "classPath": "MOVIES.Dramacool",
+        "isWorking": true
+      },
+      {
         "name": "FlixHQ",
         "baseUrl": "https://flixhq.to",
         "lang": "en",
@@ -225,6 +234,24 @@
         "isNSFW": false,
         "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/AniList_logo.svg",
         "classPath": "META.Anilist",
+        "isWorking": true
+      },
+      {
+        "name": "Myanimelist",
+        "baseUrl": "https://myanimelist.net/",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://en.wikipedia.org/wiki/MyAnimeList#/media/File:MyAnimeList.png",
+        "classPath": "META.MAL",
+        "isWorking": true
+      },
+      {
+        "name": "TMDB",
+        "baseUrl": "https://www.themoviedb.org",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://pbs.twimg.com/profile_images/1243623122089041920/gVZIvphd_400x400.jpg",
+        "classPath": "MOVIES.TMDB",
         "isWorking": true
       }
     ]
