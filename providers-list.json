@@ -100,7 +100,7 @@
         "baseUrl": "https://mangakakalot.com",
         "lang": "en",
         "isNSFW": false,
-        "logo": "https://scontent-lga3-1.xx.fbcdn.net/v/t31.18172-8/23592342_1993674674222540_3098972633173711780_o.png?stp=cp0_dst-png_p64x64&_nc_cat=105&ccb=1-7&_nc_sid=85a577&_nc_ohc=j_WvAOX4tOwAX9dNL_4&_nc_ht=scontent-lga3-1.xx&oh=00_AT-ZFkuaHiS33j-oUCtn-jzwkLfVuCONx0aqF3QXrcFKvg&oe=62FC016C",
+        "logo": "https://techbigs.com/uploads/2022/1/mangakakalot-apkoptimized.jpg",
         "classPath": "MANGA.MangaKakalot",
         "isWorking": true
       },
@@ -109,7 +109,7 @@
         "baseUrl": "https://mangapill.com",
         "lang": "en",
         "isNSFW": false,
-        "logo": "",
+        "logo": "https://scontent-man2-1.xx.fbcdn.net/v/t39.30808-6/300819578_399903675586699_2357525969702348451_n.png?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Md2cQ4wRNWwAX-_U0fz&_nc_ht=scontent-man2-1.xx&oh=00_AfCJjAYDk9bsndz8uyNG-GdFIYcPvdIzbHnetHGzf1pVSw&oe=63BDD131",
         "classPath": "MANGA.MangaPill",
         "isWorking": true
       },
@@ -162,7 +162,7 @@
         "baseUrl": "https://getcomics.info/",
         "lang": "en",
         "isNSFW": false,
-        "logo": "https://scontent-lga3-1.xx.fbcdn.net/v/t31.18172-8/10923821_1548503832063793_2041220008970231476_o.png?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=aQyuLlPZtQAAX8dJviD&_nc_ht=scontent-lga3-1.xx&oh=00_AT_yPS4uuNDGirSqXnTwl2VGS9leFv4-Ujt7l6l5_FZeLw&oe=62D00D68",
+        "logo": "https://i0.wp.com/getcomics.info/share/uploads/2020/04/cropped-GetComics-Favicon.png?fit=192%2C192&ssl=1",
         "classPath": "COMICS.GetComics",
         "isWorking": true
       }
@@ -188,7 +188,7 @@
         "baseUrl": "https://www1.dramacool.cr",
         "lang": "en",
         "isNSFW": false,
-        "logo": "https://editorialge.com/media/2021/12/Dramacool.jpg",
+        "logo": "https://play-lh.googleusercontent.com/IaCb2JXII0OV611MQ-wSA8v_SAs9XF6E3TMDiuxGGXo4wp9bI60GtDASIqdERSTO5XU",
         "classPath": "MOVIES.Dramacool",
         "isWorking": true
       },
@@ -197,7 +197,7 @@
         "baseUrl": "https://flixhq.to",
         "lang": "en",
         "isNSFW": false,
-        "logo": "https://img.flixhq.to/xxrz/400x400/100/ab/5f/ab5f0e1996cc5b71919e10e910ad593e/ab5f0e1996cc5b71919e10e910ad593e.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/MyAnimeList_Logo.png",
         "classPath": "MOVIES.FlixHQ",
         "isWorking": true
       },
