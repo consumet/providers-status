@@ -65,6 +65,15 @@
         "isWorking": true
       },
       {
+        "name": "Tenshi",
+        "baseUrl": "https://tenshi.moe/",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "",
+        "classPath": "ANIME.Tenshi",
+        "isWorking": true
+      },
+      {
         "name": "Zoro",
         "baseUrl": "https://zoro.to",
         "lang": "en",
