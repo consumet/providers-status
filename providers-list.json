@@ -38,6 +38,15 @@
         "isWorking": true
       },
       {
+        "name": "Crunchyroll",
+        "baseUrl": "https://cronchy.consumet.stream",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://play-lh.googleusercontent.com/CjzbMcLbmTswzCGauGQExkFsSHvwjKEeWLbVVJx0B-J9G6OQ-UCl2eOuGBfaIozFqow",
+        "classPath": "ANIME.Crunchyroll",
+        "isWorking": true
+      },
+      {
         "name": "Enime",
         "baseUrl": "https://enime.moe",
         "lang": "en",
@@ -53,24 +62,6 @@
         "isNSFW": false,
         "logo": "https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0",
         "classPath": "ANIME.Gogoanime",
-        "isWorking": true
-      },
-      {
-        "name": "Kamyroll",
-        "baseUrl": "https://api.kamyroll.tech",
-        "lang": "en",
-        "isNSFW": false,
-        "logo": "https://play-lh.googleusercontent.com/CjzbMcLbmTswzCGauGQExkFsSHvwjKEeWLbVVJx0B-J9G6OQ-UCl2eOuGBfaIozFqow",
-        "classPath": "ANIME.Kamyroll",
-        "isWorking": true
-      },
-      {
-        "name": "Tenshi",
-        "baseUrl": "https://tenshi.moe/",
-        "lang": "en",
-        "isNSFW": false,
-        "logo": "",
-        "classPath": "ANIME.Tenshi",
         "isWorking": true
       },
       {
