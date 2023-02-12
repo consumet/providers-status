@@ -3,8 +3,8 @@
 
 
 "@consumet/extensions@git+https://github.com/consumet/extensions.git":
-  version "1.4.2"
-  resolved "git+https://github.com/consumet/extensions.git#038456c26b1bc28b1d743ce1ea98505b21c57988"
+  version "1.4.8"
+  resolved "git+https://github.com/consumet/extensions.git#21d6277e40b3926128f6e6a1f025190997bdde66"
   dependencies:
     ascii-url-encoder "^1.2.0"
     axios "^0.27.2"
