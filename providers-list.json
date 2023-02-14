@@ -65,6 +65,15 @@
         "isWorking": true
       },
       {
+        "name": "Marin",
+        "baseUrl": "https://marin.moe",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://i.pinimg.com/736x/62/8d/3f/628d3f2e60b0aa8c8fa9598e8dae6320.jpg",
+        "classPath": "ANIME.Marin",
+        "isWorking": true
+      },
+      {
         "name": "Zoro",
         "baseUrl": "https://zoro.to",
         "lang": "en",
