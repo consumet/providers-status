@@ -87,6 +87,15 @@
   {
     "MANGA": [
       {
+        "name": "ComicK",
+        "baseUrl": "https://comick.app",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://th.bing.com/th/id/OIP.fw4WrmAoA2PmKitiyMzUIgAAAA?pid=ImgDet&rs=1",
+        "classPath": "MANGA.ComicK",
+        "isWorking": true
+      },
+      {
         "name": "MangaDex",
         "baseUrl": "https://mangadex.org",
         "lang": "en",
