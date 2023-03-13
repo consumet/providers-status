@@ -220,6 +220,15 @@
         "isWorking": true
       },
       {
+        "name": "Fmovies",
+        "baseUrl": "https://fmovies.to",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://s1.bunnycdn.ru/assets/sites/fmovies/logo2.png",
+        "classPath": "MOVIES.Fmovies",
+        "isWorking": true
+      },
+      {
         "name": "ViewAsian",
         "baseUrl": "https://viewasian.co",
         "lang": "en",
