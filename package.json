@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "Status for all consumet providers",
     "scripts": {
+        "update-providers": "ts-node ./.github/scripts/update-providers.ts",
         "run-script": "ts-node ./src/script.ts",
         "check-providers": "yarn run-script && ts-node ./chore-generator.ts"
     },

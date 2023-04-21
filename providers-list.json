@@ -202,12 +202,12 @@
   {
     "MOVIES": [
       {
-        "name": "Dramacool",
+        "name": "DramaCool",
         "baseUrl": "https://www1.dramacool.cr",
         "lang": "en",
         "isNSFW": false,
         "logo": "https://play-lh.googleusercontent.com/IaCb2JXII0OV611MQ-wSA8v_SAs9XF6E3TMDiuxGGXo4wp9bI60GtDASIqdERSTO5XU",
-        "classPath": "MOVIES.Dramacool",
+        "classPath": "MOVIES.DramaCool",
         "isWorking": true
       },
       {
@@ -269,7 +269,7 @@
         "lang": "en",
         "isNSFW": false,
         "logo": "https://en.wikipedia.org/wiki/MyAnimeList#/media/File:MyAnimeList.png",
-        "classPath": "META.MAL",
+        "classPath": "META.Myanimelist",
         "isWorking": true
       },
       {
@@ -278,7 +278,7 @@
         "lang": "en",
         "isNSFW": false,
         "logo": "https://pbs.twimg.com/profile_images/1243623122089041920/gVZIvphd_400x400.jpg",
-        "classPath": "MOVIES.TMDB",
+        "classPath": "META.TMDB",
         "isWorking": true
       }
     ]
