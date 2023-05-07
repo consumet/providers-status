@@ -5,26 +5,26 @@
 | [AnimePahe](https://animepahe.com) | 🔴 500 | N/A |
 | [Bilibili](https://bilibili.tv) | 🔴 500 | N/A |
 | [Crunchyroll](https://cronchy.consumet.stream) | 🔴 500 | N/A |
-|  [Enime](https://enime.moe)  | 🟢 200 | 0.288s |
-|  [Gogoanime](https://gogoanime.gr)  | 🟢 200 | 0.985s |
-|  [Marin](https://marin.moe)  | 🟢 200 | 3.09s |
-|  [Zoro](https://zoro.to)  | 🟢 200 | 1.01s |
-|  [ComicK](https://comick.app)  | 🟢 200 | 0.530s |
-|  [MangaDex](https://mangadex.org)  | 🟢 200 | 0.477s |
-|  [MangaHere](http://www.mangahere.cc)  | 🟢 200 | 0.625s |
-|  [MangaKakalot](https://mangakakalot.com)  | 🟢 200 | 0.767s |
+|  [Enime](https://enime.moe)  | 🟢 200 | 0.458s |
+|  [Gogoanime](https://gogoanime.gr)  | 🟢 200 | 0.721s |
+|  [Marin](https://marin.moe)  | 🟢 200 | 3.27s |
+|  [Zoro](https://zoro.to)  | 🟢 200 | 0.451s |
+|  [ComicK](https://comick.app)  | 🟢 200 | 0.500s |
+|  [MangaDex](https://mangadex.org)  | 🟢 200 | 0.516s |
+|  [MangaHere](http://www.mangahere.cc)  | 🟢 200 | 0.247s |
+|  [MangaKakalot](https://mangakakalot.com)  | 🟢 200 | 0.648s |
 | [MangaPill](https://mangapill.com) | 🔴 500 | N/A |
-|  [MangaReader](https://mangareader.to)  | 🟢 200 | 0.612s |
+|  [MangaReader](https://mangareader.to)  | 🟢 200 | 0.551s |
 | [MangaSee](https://mangasee123.com) | 🔴 500 | N/A |
-|  [Mangapark](https://v2.mangapark.net)  | 🟢 200 | 0.565s |
+|  [Mangapark](https://v2.mangapark.net)  | 🟢 200 | 0.628s |
 | [Libgen](http://libgen) | 🔴 500 | N/A |
 | [GetComics](https://getcomics.info/) | 🔴 500 | N/A |
-|  [Read Light Novels](https://readlightnovels.net)  | 🟢 200 | 0.674s |
-|  [DramaCool](https://www1.dramacool.cr)  | 🟢 200 | 1.03s |
-|  [FlixHQ](https://flixhq.to)  | 🟢 200 | 0.908s |
+|  [Read Light Novels](https://readlightnovels.net)  | 🟢 200 | 0.402s |
+|  [DramaCool](https://www1.dramacool.cr)  | 🟢 200 | 0.871s |
+|  [FlixHQ](https://flixhq.to)  | 🟢 200 | 0.695s |
 | [Fmovies](https://fmovies.to) | 🔴 500 | N/A |
-|  [ViewAsian](https://viewasian.co)  | 🟢 200 | 0.419s |
-|  [Anime News Network](https://www.animenewsnetwork.com)  | 🟢 200 | 0.00000300s |
-|  [Anilist](https://anilist.co)  | 🟢 200 | 0.100s |
+|  [ViewAsian](https://viewasian.co)  | 🟢 200 | 0.421s |
+|  [Anime News Network](https://www.animenewsnetwork.com)  | 🟢 200 | 0.00000260s |
+|  [Anilist](https://anilist.co)  | 🟢 200 | 0.112s |
 | [Myanimelist](https://myanimelist.net/) | 🔴 500 | N/A |
-|  [TMDB](https://www.themoviedb.org)  | 🟢 200 | 0.232s |
+|  [TMDB](https://www.themoviedb.org)  | 🟢 200 | 0.208s |
