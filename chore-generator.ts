@@ -148,6 +148,20 @@ const start = async() => {
 } catch (e) {
 	 output += `| [${ComicK.name}](https://comick.app) | 🔴 500 | N/A |\n`
 	}
+	const FlameScans = new MANGA.FlameScans()
+ try {
+	t0 = performance.now()
+	 const FlameScansRes = await FlameScans.search("A")
+	 t1 = performance.now()
+	if (FlameScansRes.results){
+		 output += `|  [${FlameScans.name}](https://flamescans.org/)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+	}
+	else {
+		 output += `|  [${FlameScans.name}](https://flamescans.org/)  | 🔴 500 | N/A |\n`
+	}
+} catch (e) {
+	 output += `| [${FlameScans.name}](https://flamescans.org/) | 🔴 500 | N/A |\n`
+	}
 	const MangaDex = new MANGA.MangaDex()
  try {
 	t0 = performance.now()
