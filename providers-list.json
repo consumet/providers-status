@@ -96,6 +96,15 @@
         "isWorking": true
       },
       {
+        "name": "FlameScans",
+        "baseUrl": "https://flamescans.org/",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://i.imgur.com/Nt1MW3H.png",
+        "classPath": "MANGA.FlameScans",
+        "isWorking": true
+      },
+      {
         "name": "MangaDex",
         "baseUrl": "https://mangadex.org",
         "lang": "en",
