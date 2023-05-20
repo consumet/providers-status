@@ -98,13 +98,13 @@ const start = async() => {
 	 const GogoanimeRes = await Gogoanime.search("One Piece")
 	 t1 = performance.now()
 	if (GogoanimeRes.results){
-		 output += `|  [${Gogoanime.name}](https://gogoanime.gr)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${Gogoanime.name}](https://gogoanime.cl)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 	else {
-		 output += `|  [${Gogoanime.name}](https://gogoanime.gr)  | 🔴 500 | N/A |\n`
+		 output += `|  [${Gogoanime.name}](https://gogoanime.cl)  | 🔴 500 | N/A |\n`
 	}
 } catch (e) {
-	 output += `| [${Gogoanime.name}](https://gogoanime.gr) | 🔴 500 | N/A |\n`
+	 output += `| [${Gogoanime.name}](https://gogoanime.cl) | 🔴 500 | N/A |\n`
 	}
 	const Marin = new ANIME.Marin()
  try {
