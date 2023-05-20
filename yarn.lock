@@ -4,11 +4,11 @@
 
 "@consumet/extensions@git+https://github.com/consumet/extensions.git":
   version "1.4.17"
-  resolved "git+https://github.com/consumet/extensions.git#d078339b6b0600c43f8b847d172d016d641b6abe"
+  resolved "git+https://github.com/consumet/extensions.git#2910da982ef8d98567d1061d4d0607dc3080f844"
   dependencies:
     ascii-url-encoder "^1.2.0"
     axios "^0.27.2"
-    cheerio "^1.0.0-rc.11"
+    cheerio "1.0.0-rc.12"
     crypto-js "^4.1.1"
     form-data "^4.0.0"
 
@@ -117,7 +117,7 @@ cheerio-select@^2.1.0:
     domhandler "^5.0.3"
     domutils "^3.0.1"
 
-cheerio@^1.0.0-rc.11:
+cheerio@1.0.0-rc.12:
   version "1.0.0-rc.12"
   resolved "https://registry.yarnpkg.com/cheerio/-/cheerio-1.0.0-rc.12.tgz#788bf7466506b1c6bf5fae51d24a2c4d62e47683"
   integrity sha512-VqR8m68vM46BNnuZ5NtnGBKIE/DfN0cRIzg9n40EIq9NOv90ayxLBXA8fXC5gquFRGJSTRqBq25Jt2ECLR431Q==
