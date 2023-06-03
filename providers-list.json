@@ -123,6 +123,15 @@
         "isWorking": true
       },
       {
+        "name": "MangaHost",
+        "baseUrl": "https://mangahosted.com",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://i.imgur.com/OVlhhsR.png",
+        "classPath": "MANGA.MangaHost",
+        "isWorking": true
+      },
+      {
         "name": "MangaKakalot",
         "baseUrl": "https://mangakakalot.com",
         "lang": "en",
