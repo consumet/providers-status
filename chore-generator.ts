@@ -190,6 +190,20 @@ const start = async() => {
 } catch (e) {
 	 output += `| [${MangaHere.name}](http://www.mangahere.cc) | 🔴 500 | N/A |\n`
 	}
+	const MangaHost = new MANGA.MangaHost()
+ try {
+	t0 = performance.now()
+	 const MangaHostRes = await MangaHost.search("A")
+	 t1 = performance.now()
+	if (MangaHostRes.results){
+		 output += `|  [${MangaHost.name}](https://mangahosted.com)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+	}
+	else {
+		 output += `|  [${MangaHost.name}](https://mangahosted.com)  | 🔴 500 | N/A |\n`
+	}
+} catch (e) {
+	 output += `| [${MangaHost.name}](https://mangahosted.com) | 🔴 500 | N/A |\n`
+	}
 	const MangaKakalot = new MANGA.MangaKakalot()
  try {
 	t0 = performance.now()
