@@ -134,6 +134,20 @@ const start = async() => {
 } catch (e) {
 	 output += `| [${Zoro.name}](https://zoro.to) | 🔴 500 | N/A |\n`
 	}
+	const BRMangas = new MANGA.BRMangas()
+ try {
+	t0 = performance.now()
+	 const BRMangasRes = await BRMangas.search("A")
+	 t1 = performance.now()
+	if (BRMangasRes.results){
+		 output += `|  [${BRMangas.name}](https://www.brmangas.net)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+	}
+	else {
+		 output += `|  [${BRMangas.name}](https://www.brmangas.net)  | 🔴 500 | N/A |\n`
+	}
+} catch (e) {
+	 output += `| [${BRMangas.name}](https://www.brmangas.net) | 🔴 500 | N/A |\n`
+	}
 	const ComicK = new MANGA.ComicK()
  try {
 	t0 = performance.now()
