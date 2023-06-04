@@ -87,6 +87,15 @@
   {
     "MANGA": [
       {
+        "name": "BRMangas",
+        "baseUrl": "https://www.brmangas.net",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://www.brmangas.net/wp-content/themes/brmangasnew/images/svg/logo.svg",
+        "classPath": "MANGA.BRMangas",
+        "isWorking": true
+      },
+      {
         "name": "ComicK",
         "baseUrl": "https://comick.app",
         "lang": "en",
