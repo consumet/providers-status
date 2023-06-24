@@ -372,6 +372,20 @@ const start = async() => {
 } catch (e) {
 	 output += `| [${Fmovies.name}](https://fmovies.to) | 🔴 500 | N/A |\n`
 	}
+	const Goku = new MOVIES.Goku()
+ try {
+	t0 = performance.now()
+	 const GokuRes = await Goku.search("batman")
+	 t1 = performance.now()
+	if (GokuRes.results){
+		 output += `|  [${Goku.name}](https://goku.sx)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+	}
+	else {
+		 output += `|  [${Goku.name}](https://goku.sx)  | 🔴 500 | N/A |\n`
+	}
+} catch (e) {
+	 output += `| [${Goku.name}](https://goku.sx) | 🔴 500 | N/A |\n`
+	}
 	const ViewAsian = new MOVIES.ViewAsian()
  try {
 	t0 = performance.now()
