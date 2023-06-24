@@ -256,6 +256,15 @@
         "isWorking": true
       },
       {
+        "name": "Goku",
+        "baseUrl": "https://goku.sx",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://img.goku.sx/xxrz/100x100/100/81/94/819455c601168a1fd7caf7cdf77a8bbf/819455c601168a1fd7caf7cdf77a8bbf.png?v=1.1",
+        "classPath": "MOVIES.Goku",
+        "isWorking": true
+      },
+      {
         "name": "ViewAsian",
         "baseUrl": "https://viewasian.co",
         "lang": "en",

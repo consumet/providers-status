@@ -4,7 +4,7 @@
 
 "@consumet/extensions@git+https://github.com/consumet/extensions.git":
   version "1.4.18"
-  resolved "git+https://github.com/consumet/extensions.git#266fee3ab0fca9759fc7bc18d69db0d4acbc41d9"
+  resolved "git+https://github.com/consumet/extensions.git#77b6096c400a8fdd3bfaf5c582eb3a7dd5bf7faa"
   dependencies:
     ascii-url-encoder "^1.2.0"
     axios "^0.27.2"
