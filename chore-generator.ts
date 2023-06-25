@@ -386,6 +386,20 @@ const start = async() => {
 } catch (e) {
 	 output += `| [${Goku.name}](https://goku.sx) | 🔴 500 | N/A |\n`
 	}
+	const MovieHdWatch = new MOVIES.MovieHdWatch()
+ try {
+	t0 = performance.now()
+	 const MovieHdWatchRes = await MovieHdWatch.search("batman")
+	 t1 = performance.now()
+	if (MovieHdWatchRes.results){
+		 output += `|  [${MovieHdWatch.name}](https://movieshd.watch)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+	}
+	else {
+		 output += `|  [${MovieHdWatch.name}](https://movieshd.watch)  | 🔴 500 | N/A |\n`
+	}
+} catch (e) {
+	 output += `| [${MovieHdWatch.name}](https://movieshd.watch) | 🔴 500 | N/A |\n`
+	}
 	const ViewAsian = new MOVIES.ViewAsian()
  try {
 	t0 = performance.now()
