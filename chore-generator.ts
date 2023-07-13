@@ -126,13 +126,13 @@ const start = async() => {
 	 const ZoroRes = await Zoro.search("One Piece")
 	 t1 = performance.now()
 	if (ZoroRes.results){
-		 output += `|  [${Zoro.name}](https://zoro.to)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${Zoro.name}](https://aniwatch.to)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 	else {
-		 output += `|  [${Zoro.name}](https://zoro.to)  | 🔴 500 | N/A |\n`
+		 output += `|  [${Zoro.name}](https://aniwatch.to)  | 🔴 500 | N/A |\n`
 	}
 } catch (e) {
-	 output += `| [${Zoro.name}](https://zoro.to) | 🔴 500 | N/A |\n`
+	 output += `| [${Zoro.name}](https://aniwatch.to) | 🔴 500 | N/A |\n`
 	}
 	const BRMangas = new MANGA.BRMangas()
  try {
