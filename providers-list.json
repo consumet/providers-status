@@ -57,7 +57,7 @@
       },
       {
         "name": "Gogoanime",
-        "baseUrl": "https://gogoanime.cl",
+        "baseUrl": "https://gogoanimehd.to",
         "lang": "en",
         "isNSFW": false,
         "logo": "https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0",
@@ -230,7 +230,7 @@
     "MOVIES": [
       {
         "name": "DramaCool",
-        "baseUrl": "https://www1.dramacool.cr",
+        "baseUrl": "https://dramacool.hr",
         "lang": "en",
         "isNSFW": false,
         "logo": "https://play-lh.googleusercontent.com/IaCb2JXII0OV611MQ-wSA8v_SAs9XF6E3TMDiuxGGXo4wp9bI60GtDASIqdERSTO5XU",
@@ -262,6 +262,15 @@
         "isNSFW": false,
         "logo": "https://img.goku.sx/xxrz/400x400/100/9c/e7/9ce7510639c4204bfe43904fad8f361f/9ce7510639c4204bfe43904fad8f361f.png",
         "classPath": "MOVIES.Goku",
+        "isWorking": true
+      },
+      {
+        "name": "KissAsian",
+        "baseUrl": "https://kissasian.mx",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://kissasian.mx/Content/images/logo.png",
+        "classPath": "MOVIES.KissAsian",
         "isWorking": true
       },
       {
