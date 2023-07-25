@@ -98,13 +98,13 @@ const start = async() => {
 	 const GogoanimeRes = await Gogoanime.search("One Piece")
 	 t1 = performance.now()
 	if (GogoanimeRes.results){
-		 output += `|  [${Gogoanime.name}](https://gogoanime.cl)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${Gogoanime.name}](https://gogoanimehd.to)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 	else {
-		 output += `|  [${Gogoanime.name}](https://gogoanime.cl)  | 🔴 500 | N/A |\n`
+		 output += `|  [${Gogoanime.name}](https://gogoanimehd.to)  | 🔴 500 | N/A |\n`
 	}
 } catch (e) {
-	 output += `| [${Gogoanime.name}](https://gogoanime.cl) | 🔴 500 | N/A |\n`
+	 output += `| [${Gogoanime.name}](https://gogoanimehd.to) | 🔴 500 | N/A |\n`
 	}
 	const Marin = new ANIME.Marin()
  try {
@@ -336,13 +336,13 @@ const start = async() => {
 	 const DramaCoolRes = await DramaCool.search("batman")
 	 t1 = performance.now()
 	if (DramaCoolRes.results){
-		 output += `|  [${DramaCool.name}](https://www1.dramacool.cr)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${DramaCool.name}](https://dramacool.hr)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 	else {
-		 output += `|  [${DramaCool.name}](https://www1.dramacool.cr)  | 🔴 500 | N/A |\n`
+		 output += `|  [${DramaCool.name}](https://dramacool.hr)  | 🔴 500 | N/A |\n`
 	}
 } catch (e) {
-	 output += `| [${DramaCool.name}](https://www1.dramacool.cr) | 🔴 500 | N/A |\n`
+	 output += `| [${DramaCool.name}](https://dramacool.hr) | 🔴 500 | N/A |\n`
 	}
 	const FlixHQ = new MOVIES.FlixHQ()
  try {
@@ -385,6 +385,20 @@ const start = async() => {
 	}
 } catch (e) {
 	 output += `| [${Goku.name}](https://goku.sx) | 🔴 500 | N/A |\n`
+	}
+	const KissAsian = new MOVIES.KissAsian()
+ try {
+	t0 = performance.now()
+	 const KissAsianRes = await KissAsian.search("batman")
+	 t1 = performance.now()
+	if (KissAsianRes.results){
+		 output += `|  [${KissAsian.name}](https://kissasian.mx)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+	}
+	else {
+		 output += `|  [${KissAsian.name}](https://kissasian.mx)  | 🔴 500 | N/A |\n`
+	}
+} catch (e) {
+	 output += `| [${KissAsian.name}](https://kissasian.mx) | 🔴 500 | N/A |\n`
 	}
 	const MovieHdWatch = new MOVIES.MovieHdWatch()
  try {
