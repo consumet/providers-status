@@ -78,20 +78,6 @@ const start = async() => {
 } catch (e) {
 	 output += `| [${Crunchyroll.name}](https://cronchy.consumet.stream) | 🔴 500 | N/A |\n`
 	}
-	const Enime = new ANIME.Enime()
- try {
-	t0 = performance.now()
-	 const EnimeRes = await Enime.search("One Piece")
-	 t1 = performance.now()
-	if (EnimeRes.results){
-		 output += `|  [${Enime.name}](https://enime.moe)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
-	}
-	else {
-		 output += `|  [${Enime.name}](https://enime.moe)  | 🔴 500 | N/A |\n`
-	}
-} catch (e) {
-	 output += `| [${Enime.name}](https://enime.moe) | 🔴 500 | N/A |\n`
-	}
 	const Gogoanime = new ANIME.Gogoanime()
  try {
 	t0 = performance.now()
@@ -133,6 +119,20 @@ const start = async() => {
 	}
 } catch (e) {
 	 output += `| [${Zoro.name}](https://aniwatch.to) | 🔴 500 | N/A |\n`
+	}
+	const Anify = new ANIME.Anify()
+ try {
+	t0 = performance.now()
+	 const AnifyRes = await Anify.search("One Piece")
+	 t1 = performance.now()
+	if (AnifyRes.results){
+		 output += `|  [${Anify.name}](https://api.anify.tv)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+	}
+	else {
+		 output += `|  [${Anify.name}](https://api.anify.tv)  | 🔴 500 | N/A |\n`
+	}
+} catch (e) {
+	 output += `| [${Anify.name}](https://api.anify.tv) | 🔴 500 | N/A |\n`
 	}
 	const BRMangas = new MANGA.BRMangas()
  try {
