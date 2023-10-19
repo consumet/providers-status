@@ -47,15 +47,6 @@
         "isWorking": true
       },
       {
-        "name": "Enime",
-        "baseUrl": "https://enime.moe",
-        "lang": "en",
-        "isNSFW": false,
-        "logo": "https://enime.moe/favicon.ico",
-        "classPath": "ANIME.Enime",
-        "isWorking": true
-      },
-      {
         "name": "Gogoanime",
         "baseUrl": "https://gogoanimehd.io",
         "lang": "en",
@@ -80,6 +71,15 @@
         "isNSFW": false,
         "logo": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg",
         "classPath": "ANIME.Zoro",
+        "isWorking": true
+      },
+      {
+        "name": "anify",
+        "baseUrl": "https://api.anify.tv",
+        "lang": "en",
+        "isNSFW": false,
+        "logo": "https://png.pngtree.com/png-vector/20210221/ourmid/pngtree-error-404-not-found-neon-effect-png-image_2928214.jpg",
+        "classPath": "ANIME.Anify",
         "isWorking": true
       }
     ]
