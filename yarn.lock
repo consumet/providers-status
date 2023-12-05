@@ -4,10 +4,11 @@
 
 "@consumet/extensions@git+https://github.com/consumet/extensions.git":
   version "1.5.4"
-  resolved "git+https://github.com/consumet/extensions.git#47e14e39310118cced7068673c62e5da71941da9"
+  resolved "git+https://github.com/consumet/extensions.git#4dc76dcdf08b34319a08706095de9233b29ad69a"
   dependencies:
     ascii-url-encoder "^1.2.0"
     axios "^0.27.2"
+    blurhash "^2.0.5"
     cheerio "1.0.0-rc.12"
     crypto-js "^4.1.1"
     form-data "^4.0.0"
@@ -99,6 +100,11 @@ axios@^0.27.2:
   dependencies:
     follow-redirects "^1.14.9"
     form-data "^4.0.0"
+
+blurhash@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/blurhash/-/blurhash-2.0.5.tgz#efde729fc14a2f03571a6aa91b49cba80d1abe4b"
+  integrity sha512-cRygWd7kGBQO3VEhPiTgq4Wc43ctsM+o46urrmPOiuAe+07fzlSB9OJVdpgDL0jPqXUVQ9ht7aq7kxOeJHRK+w==
 
 boolbase@^1.0.0:
   version "1.0.0"
