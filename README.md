@@ -1,36 +1,36 @@
 | **provider** | **Status** | **Time** |
 |:--------:|:------:|:----:|
 | [9Anime](https://9anime.pl) | 🔴 500 | N/A |
-|  [Anify](https://api.anify.tv)  | 🟢 200 | 8.36s |
-|  [AnimeFox](https://animefox.tv)  | 🟢 200 | 1.22s |
+|  [Anify](https://api.anify.tv)  | 🟢 200 | 8.86s |
+|  [AnimeFox](https://animefox.tv)  | 🟢 200 | 1.23s |
 | [AnimePahe](https://animepahe.com) | 🔴 500 | N/A |
 | [Bilibili](https://bilibili.tv) | 🔴 500 | N/A |
 | [Crunchyroll](https://cronchy.consumet.stream) | 🔴 500 | N/A |
-|  [Gogoanime](https://gogoanime3.net)  | 🟢 200 | 0.511s |
+|  [Gogoanime](https://gogoanime3.net)  | 🟢 200 | 0.431s |
 | [Marin](https://marin.moe) | 🔴 500 | N/A |
-|  [Zoro](https://aniwatch.to)  | 🟢 200 | 0.692s |
+|  [Zoro](https://aniwatch.to)  | 🟢 200 | 0.661s |
 | [BRMangas](https://www.brmangas.net) | 🔴 500 | N/A |
 | [ComicK](https://comick.app) | 🔴 500 | N/A |
-|  [FlameScans](https://flamescans.org/)  | 🟢 200 | 0.667s |
-|  [MangaDex](https://mangadex.org)  | 🟢 200 | 0.495s |
-|  [MangaHere](http://www.mangahere.cc)  | 🟢 200 | 0.208s |
+|  [FlameScans](https://flamescans.org/)  | 🟢 200 | 0.655s |
+|  [MangaDex](https://mangadex.org)  | 🟢 200 | 0.396s |
+|  [MangaHere](http://www.mangahere.cc)  | 🟢 200 | 0.140s |
 | [MangaHost](https://mangahosted.com) | 🔴 500 | N/A |
-|  [MangaKakalot](https://mangakakalot.com)  | 🟢 200 | 0.926s |
-|  [MangaPill](https://mangapill.com)  | 🟢 200 | 0.485s |
-|  [MangaReader](https://mangareader.to)  | 🟢 200 | 0.570s |
+|  [MangaKakalot](https://mangakakalot.com)  | 🟢 200 | 0.880s |
+|  [MangaPill](https://mangapill.com)  | 🟢 200 | 0.465s |
+|  [MangaReader](https://mangareader.to)  | 🟢 200 | 0.601s |
 | [MangaSee](https://mangasee123.com) | 🔴 500 | N/A |
 | [Mangapark](https://v2.mangapark.net) | 🔴 500 | N/A |
 | [Libgen](http://libgen) | 🔴 500 | N/A |
 | [GetComics](https://getcomics.info/) | 🔴 500 | N/A |
-|  [Read Light Novels](https://readlightnovels.net)  | 🟢 200 | 1.06s |
-|  [DramaCool](https://dramacool.hr)  | 🟢 200 | 0.576s |
-|  [FlixHQ](https://flixhq.to)  | 🟢 200 | 0.394s |
+|  [Read Light Novels](https://readlightnovels.net)  | 🟢 200 | 0.961s |
+|  [DramaCool](https://dramacool.hr)  | 🟢 200 | 0.499s |
+|  [FlixHQ](https://flixhq.to)  | 🟢 200 | 0.495s |
 | [Fmovies](https://fmovies.to) | 🔴 500 | N/A |
-|  [Goku](https://goku.sx)  | 🟢 200 | 0.637s |
+|  [Goku](https://goku.sx)  | 🟢 200 | 0.583s |
 | [KissAsian](https://kissasian.mx) | 🔴 500 | N/A |
-|  [MovieHdWatch](https://movieshd.watch)  | 🟢 200 | 0.500s |
-|  [ViewAsian](https://viewasian.co)  | 🟢 200 | 0.502s |
-|  [Anime News Network](https://www.animenewsnetwork.com)  | 🟢 200 | 0.00000213s |
-|  [Anilist](https://anilist.co)  | 🟢 200 | 0.135s |
+|  [MovieHdWatch](https://movieshd.watch)  | 🟢 200 | 0.683s |
+|  [ViewAsian](https://viewasian.co)  | 🟢 200 | 0.439s |
+|  [Anime News Network](https://www.animenewsnetwork.com)  | 🟢 200 | 0.00000233s |
+|  [Anilist](https://anilist.co)  | 🟢 200 | 0.118s |
 | [Myanimelist](https://myanimelist.net/) | 🔴 500 | N/A |
-|  [TMDB](https://www.themoviedb.org)  | 🟢 200 | 0.243s |
+|  [TMDB](https://www.themoviedb.org)  | 🟢 200 | 0.195s |
