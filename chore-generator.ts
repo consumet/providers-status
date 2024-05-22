@@ -14,13 +14,13 @@ const start = async() => {
 	 const NineAnimeRes = await NineAnime.search("One Piece")
 	 t1 = performance.now()
 	if (NineAnimeRes.results){
-		 output += `|  [${NineAnime.name}](https://9anime.pl)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${NineAnime.name}](https://aniwave.to)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 	else {
-		 output += `|  [${NineAnime.name}](https://9anime.pl)  | 🔴 500 | N/A |\n`
+		 output += `|  [${NineAnime.name}](https://aniwave.to)  | 🔴 500 | N/A |\n`
 	}
 } catch (e) {
-	 output += `| [${NineAnime.name}](https://9anime.pl) | 🔴 500 | N/A |\n`
+	 output += `| [${NineAnime.name}](https://aniwave.to) | 🔴 500 | N/A |\n`
 	}
 	const Anify = new ANIME.Anify()
  try {
@@ -98,13 +98,13 @@ const start = async() => {
 	 const GogoanimeRes = await Gogoanime.search("One Piece")
 	 t1 = performance.now()
 	if (GogoanimeRes.results){
-		 output += `|  [${Gogoanime.name}](https://gogoanime3.net)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${Gogoanime.name}](https://anitaku.so)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 	else {
-		 output += `|  [${Gogoanime.name}](https://gogoanime3.net)  | 🔴 500 | N/A |\n`
+		 output += `|  [${Gogoanime.name}](https://anitaku.so)  | 🔴 500 | N/A |\n`
 	}
 } catch (e) {
-	 output += `| [${Gogoanime.name}](https://gogoanime3.net) | 🔴 500 | N/A |\n`
+	 output += `| [${Gogoanime.name}](https://anitaku.so) | 🔴 500 | N/A |\n`
 	}
 	const Marin = new ANIME.Marin()
  try {
@@ -126,13 +126,13 @@ const start = async() => {
 	 const ZoroRes = await Zoro.search("One Piece")
 	 t1 = performance.now()
 	if (ZoroRes.results){
-		 output += `|  [${Zoro.name}](https://aniwatch.to)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${Zoro.name}](https://hianime.to)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 	else {
-		 output += `|  [${Zoro.name}](https://aniwatch.to)  | 🔴 500 | N/A |\n`
+		 output += `|  [${Zoro.name}](https://hianime.to)  | 🔴 500 | N/A |\n`
 	}
 } catch (e) {
-	 output += `| [${Zoro.name}](https://aniwatch.to) | 🔴 500 | N/A |\n`
+	 output += `| [${Zoro.name}](https://hianime.to) | 🔴 500 | N/A |\n`
 	}
 	const BRMangas = new MANGA.BRMangas()
  try {
@@ -336,13 +336,13 @@ const start = async() => {
 	 const DramaCoolRes = await DramaCool.search("batman")
 	 t1 = performance.now()
 	if (DramaCoolRes.results){
-		 output += `|  [${DramaCool.name}](https://dramacool.hr)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${DramaCool.name}](https://dramacool.com.pa)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 	else {
-		 output += `|  [${DramaCool.name}](https://dramacool.hr)  | 🔴 500 | N/A |\n`
+		 output += `|  [${DramaCool.name}](https://dramacool.com.pa)  | 🔴 500 | N/A |\n`
 	}
 } catch (e) {
-	 output += `| [${DramaCool.name}](https://dramacool.hr) | 🔴 500 | N/A |\n`
+	 output += `| [${DramaCool.name}](https://dramacool.com.pa) | 🔴 500 | N/A |\n`
 	}
 	const FlixHQ = new MOVIES.FlixHQ()
  try {
