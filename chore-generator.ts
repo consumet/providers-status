@@ -28,13 +28,13 @@ const start = async() => {
 	 const AnifyRes = await Anify.search("One Piece")
 	 t1 = performance.now()
 	if (AnifyRes.results){
-		 output += `|  [${Anify.name}](https://api.anify.tv)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${Anify.name}](https://anify.eltik.cc)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 	else {
-		 output += `|  [${Anify.name}](https://api.anify.tv)  | 🔴 500 | N/A |\n`
+		 output += `|  [${Anify.name}](https://anify.eltik.cc)  | 🔴 500 | N/A |\n`
 	}
 } catch (e) {
-	 output += `| [${Anify.name}](https://api.anify.tv) | 🔴 500 | N/A |\n`
+	 output += `| [${Anify.name}](https://anify.eltik.cc) | 🔴 500 | N/A |\n`
 	}
 	const AnimeFox = new ANIME.AnimeFox()
  try {
@@ -98,13 +98,13 @@ const start = async() => {
 	 const GogoanimeRes = await Gogoanime.search("One Piece")
 	 t1 = performance.now()
 	if (GogoanimeRes.results){
-		 output += `|  [${Gogoanime.name}](https://anitaku.so)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${Gogoanime.name}](https://anitaku.pe)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 	else {
-		 output += `|  [${Gogoanime.name}](https://anitaku.so)  | 🔴 500 | N/A |\n`
+		 output += `|  [${Gogoanime.name}](https://anitaku.pe)  | 🔴 500 | N/A |\n`
 	}
 } catch (e) {
-	 output += `| [${Gogoanime.name}](https://anitaku.so) | 🔴 500 | N/A |\n`
+	 output += `| [${Gogoanime.name}](https://anitaku.pe) | 🔴 500 | N/A |\n`
 	}
 	const Marin = new ANIME.Marin()
  try {
@@ -364,13 +364,13 @@ const start = async() => {
 	 const FmoviesRes = await Fmovies.search("batman")
 	 t1 = performance.now()
 	if (FmoviesRes.results){
-		 output += `|  [${Fmovies.name}](https://fmovies.to)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
+		 output += `|  [${Fmovies.name}](https://fmovies24.to)  | 🟢 200 | ${((t1 - t0) / 1000).toPrecision(3)}s |\n`
 	}
 	else {
-		 output += `|  [${Fmovies.name}](https://fmovies.to)  | 🔴 500 | N/A |\n`
+		 output += `|  [${Fmovies.name}](https://fmovies24.to)  | 🔴 500 | N/A |\n`
 	}
 } catch (e) {
-	 output += `| [${Fmovies.name}](https://fmovies.to) | 🔴 500 | N/A |\n`
+	 output += `| [${Fmovies.name}](https://fmovies24.to) | 🔴 500 | N/A |\n`
 	}
 	const Goku = new MOVIES.Goku()
  try {
