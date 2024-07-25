@@ -12,7 +12,7 @@
       },
       {
         "name": "Anify",
-        "baseUrl": "https://api.anify.tv",
+        "baseUrl": "https://anify.eltik.cc",
         "lang": "en",
         "isNSFW": false,
         "logo": "https://png.pngtree.com/png-vector/20210221/ourmid/pngtree-error-404-not-found-neon-effect-png-image_2928214.jpg",
@@ -57,7 +57,7 @@
       },
       {
         "name": "Gogoanime",
-        "baseUrl": "https://anitaku.so",
+        "baseUrl": "https://anitaku.pe",
         "lang": "en",
         "isNSFW": false,
         "logo": "https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0",
@@ -248,7 +248,7 @@
       },
       {
         "name": "Fmovies",
-        "baseUrl": "https://fmovies.to",
+        "baseUrl": "https://fmovies24.to",
         "lang": "en",
         "isNSFW": false,
         "logo": "https://s1.bunnycdn.ru/assets/sites/fmovies/logo2.png",
