@@ -1,0 +1,19 @@
+[install]
+# Use exact versions from lockfile
+exact = true
+
+# Cache directory
+cache = ".bun-cache"
+
+# Auto install peer dependencies
+auto = true
+
+[install.scopes]
+# Add any scoped registries here if needed
+
+[run]
+# Enable hot reload for development
+hot = false
+
+# Shell to use for scripts (bun or system)
+shell = "system"

@@ -2,35 +2,39 @@ name: Update Providers Status
 
 on:
   schedule:
-    - cron: '0 10 * * *'
+    - cron: '0 */6 * * *'  # Every 6 hours
   workflow_dispatch:
 
 jobs:   
   update-providers-status:
     runs-on: ubuntu-latest
-    name: run-script
+    name: check-providers
     permissions:
       contents: write
       packages: write
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '14'
-      - name: install dependencies
-        run: |
-            npm install
-            npm install -g ts-node
-            npm install -g typescript
-            npm update
-            npm run check-providers
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Delete package-lock.json
-        run: rm package-lock.json
-      - name: Commit
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: |
+          bun install --frozen-lockfile
+
+      - name: Check provider status
+        run: |
+          bun run check
+        timeout-minutes: 15
+
+      - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "chore: generate providers status"
-          git push --no-verify
+          git add README.md status.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update providers status [skip ci]" && git push)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
