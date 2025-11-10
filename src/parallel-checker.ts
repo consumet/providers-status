@@ -68,11 +68,6 @@ async function testProvider(
   try {
     const query = CATEGORY_QUERIES[category] || 'test';
 
-    // Create timeout promise
-    const timeoutPromise = new Promise((_, reject) =>
-      setTimeout(() => reject(new Error('Timeout')), TIMEOUT_MS)
-    );
-
     // Special handling for providers without search
     if (providerName === 'ANN' || !providerInstance.search) {
       result.status = 200;
@@ -80,28 +75,44 @@ async function testProvider(
       return result;
     }
 
+    // Create timeout promise with cleanup
+    let timeoutId: any;
+    const timeoutPromise = new Promise((_, reject) => {
+      timeoutId = setTimeout(() => reject(new Error('Timeout')), TIMEOUT_MS);
+    });
+
     // Test the provider with timeout
     const searchPromise = providerInstance.search(query);
-    const searchResult = await Promise.race([searchPromise, timeoutPromise]);
+    
+    try {
+      const searchResult = await Promise.race([searchPromise, timeoutPromise]);
+      
+      // Clear timeout if search completed first
+      clearTimeout(timeoutId);
 
-    const endTime = performance.now();
-    const responseTime = ((endTime - startTime) / 1000).toPrecision(3) + 's';
+      const endTime = performance.now();
+      const responseTime = ((endTime - startTime) / 1000).toPrecision(3) + 's';
 
-    // Check if results exist
-    let hasResults = false;
-    if (providerName === 'Libgen') {
-      hasResults = !!searchResult;
-    } else if (providerName === 'GetComics') {
-      hasResults = !!(searchResult as any)?.containers;
-    } else {
-      hasResults = !!(searchResult as any)?.results && (searchResult as any).results.length > 0;
-    }
+      // Check if results exist
+      let hasResults = false;
+      if (providerName === 'Libgen') {
+        hasResults = !!searchResult;
+      } else if (providerName === 'GetComics') {
+        hasResults = !!(searchResult as any)?.containers;
+      } else {
+        hasResults = !!(searchResult as any)?.results && (searchResult as any).results.length > 0;
+      }
 
-    if (hasResults) {
-      result.status = 200;
-      result.responseTime = responseTime;
-    } else {
-      result.error = 'No results returned';
+      if (hasResults) {
+        result.status = 200;
+        result.responseTime = responseTime;
+      } else {
+        result.error = 'No results returned';
+      }
+    } catch (raceError: any) {
+      // Clear timeout on error
+      clearTimeout(timeoutId);
+      throw raceError;
     }
   } catch (error: any) {
     result.error = error.message || 'Unknown error';
@@ -220,7 +231,12 @@ async function checkAllProviders() {
   console.log(`   Uptime: ${uptimePercent}%`);
 }
 
-checkAllProviders().catch((error) => {
-  console.error('Fatal error:', error);
-  process.exit(1);
-});
+checkAllProviders()
+  .then(() => {
+    console.log('\n✅ Provider status check completed successfully!');
+    process.exit(0);
+  })
+  .catch((error) => {
+    console.error('❌ Fatal error:', error);
+    process.exit(1);
+  });
