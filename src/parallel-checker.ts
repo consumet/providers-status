@@ -34,6 +34,18 @@ const CATEGORY_QUERIES: Record<string, string> = {
 const CONCURRENCY_LIMIT = 5;
 const TIMEOUT_MS = 30000; 
 
+const USER_AGENTS = [
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0',
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15',
+];
+
+function getRandomUserAgent(): string {
+  return USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)];
+}
+
 async function testProvider(
   ProviderClass: any,
   providerName: string,
@@ -44,6 +56,21 @@ async function testProvider(
   let providerInstance: any;
   try {
     providerInstance = new ProviderClass();
+    
+    // Inject custom headers if the provider has a client
+    if (providerInstance.client && providerInstance.client.defaults) {
+      providerInstance.client.defaults.headers.common['User-Agent'] = getRandomUserAgent();
+      providerInstance.client.defaults.headers.common['Accept'] = 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8';
+      providerInstance.client.defaults.headers.common['Accept-Language'] = 'en-US,en;q=0.9';
+      providerInstance.client.defaults.headers.common['Accept-Encoding'] = 'gzip, deflate, br';
+      providerInstance.client.defaults.headers.common['DNT'] = '1';
+      providerInstance.client.defaults.headers.common['Connection'] = 'keep-alive';
+      providerInstance.client.defaults.headers.common['Upgrade-Insecure-Requests'] = '1';
+      providerInstance.client.defaults.headers.common['Sec-Fetch-Dest'] = 'document';
+      providerInstance.client.defaults.headers.common['Sec-Fetch-Mode'] = 'navigate';
+      providerInstance.client.defaults.headers.common['Sec-Fetch-Site'] = 'none';
+      providerInstance.client.defaults.headers.common['Cache-Control'] = 'max-age=0';
+    }
   } catch (error: any) {
     return {
       provider: providerName,
@@ -173,7 +200,7 @@ async function checkAllProviders() {
     });
   }
 
-  let readmeOutput = '# Consumet Providers Status(upto-date version)\n\n';
+  let readmeOutput = '# Consumet Providers Status (upto-date version)\n\n';
   readmeOutput += `Last updated: ${new Date().toISOString()}\n\n`;
 
   let totalProviders = 0;
