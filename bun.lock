@@ -17,7 +17,7 @@
     },
   },
   "packages": {
-    "@consumet/extensions": ["@consumet/extensions@github:zuhaz/consumet.ts#ab925db", { "dependencies": { "ascii-url-encoder": "^1.2.0", "axios": "^1.7.9", "cheerio": "^1.0.0-rc.12", "crypto-js": "^4.1.1", "domhandler": "^5.0.3", "form-data": "^4.0.0", "husky": "^9.1.1" } }, "zuhaz-consumet.ts-ab925db"],
+    "@consumet/extensions": ["@consumet/extensions@github:zuhaz/consumet.ts#33c93b7", { "dependencies": { "ascii-url-encoder": "^1.2.0", "axios": "^1.7.9", "cheerio": "^1.0.0-rc.12", "crypto-js": "^4.1.1", "domhandler": "^5.0.3", "form-data": "^4.0.0", "husky": "^9.1.1" } }, "zuhaz-consumet.ts-33c93b7"],
 
     "@types/crypto-js": ["@types/crypto-js@4.2.2", "", {}, "sha512-sDOLlVbHhXpAUAL0YHDUUwDZf3iN4Bwi4W6a0W0b+QcAezUbRtH4FVb+9J4h+XFPW7l/gQ9F8qC7P+Ec4k8QVQ=="],
 
