@@ -1,14 +1,14 @@
 # Consumet Providers Status (upto-date version)
 
-Last updated: 2026-01-04T06:20:18.857Z
+Last updated: 2026-01-04T12:24:32.828Z
 
 ## ANIME
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [AnimeKai](https://anikai.to) | 🟢 200 | 0.543s |
-| [AnimePahe](https://animepahe.si) | 🟢 200 | 0.722s |
-| [hianime](https://hianime.to) | 🟢 200 | 0.721s |
+| [AnimeKai](https://anikai.to) | 🟢 200 | 0.824s |
+| [AnimePahe](https://animepahe.si) | 🟢 200 | 0.807s |
+| [hianime](https://hianime.to) | 🟢 200 | 0.809s |
 | [AnimeSaturn](https://www.animesaturn.cx/) | 🔴 500 | N/A |
 | [Gogoanime](https://gogoanime.by) | 🔴 500 | N/A |
 | [KickAssAnime](https://kickass-anime.ru) | 🔴 500 | N/A |
@@ -17,11 +17,11 @@ Last updated: 2026-01-04T06:20:18.857Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [ComicK](https://comick.art) | 🟢 200 | 0.780s |
-| [MangaDex](https://mangadex.org) | 🟢 200 | 4.55s |
-| [MangaHere](http://www.mangahere.cc) | 🟢 200 | 0.101s |
-| [MangaPill](https://mangapill.com) | 🟢 200 | 0.546s |
-| [MangaReader](https://mangareader.to) | 🟢 200 | 1.01s |
+| [ComicK](https://comick.art) | 🟢 200 | 1.55s |
+| [MangaDex](https://mangadex.org) | 🟢 200 | 5.82s |
+| [MangaHere](http://www.mangahere.cc) | 🟢 200 | 0.184s |
+| [MangaPill](https://mangapill.com) | 🟢 200 | 0.537s |
+| [MangaReader](https://mangareader.to) | 🟢 200 | 1.07s |
 | [AsuraScans](https://asuracomic.net) | 🔴 500 | N/A |
 | [WeebCentral](https://weebcentral.com) | 🔴 500 | N/A |
 
@@ -29,10 +29,10 @@ Last updated: 2026-01-04T06:20:18.857Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [FlixHQ](https://flixhq.to) | 🟢 200 | 6.41s |
-| [Goku](https://goku.sx) | 🟢 200 | 4.55s |
-| [HiMovies](https://himovies.sx) | 🟢 200 | 1.33s |
-| [SFlix](https://sflix.to) | 🟢 200 | 0.887s |
+| [FlixHQ](https://flixhq.to) | 🟢 200 | 5.12s |
+| [Goku](https://goku.sx) | 🟢 200 | 4.58s |
+| [HiMovies](https://himovies.sx) | 🟢 200 | 0.895s |
+| [SFlix](https://sflix.to) | 🟢 200 | 0.912s |
 | [DramaCool](https://dramacool.bg) | 🔴 500 | N/A |
 | [Fmovies](https://ww4.fmovies.co) | 🔴 500 | N/A |
 | [Smashystream](https://embed.smashystream.com) | 🔴 500 | N/A |
@@ -59,15 +59,15 @@ Last updated: 2026-01-04T06:20:18.857Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [Anilist](https://anilist.co) | 🟢 200 | 0.217s |
-| [Myanimelist](https://myanimelist.net/) | 🟢 200 | 0.460s |
-| [TMDB](https://www.themoviedb.org) | 🟢 200 | 0.257s |
+| [Anilist](https://anilist.co) | 🟢 200 | 0.281s |
+| [Myanimelist](https://myanimelist.net/) | 🟢 200 | 0.657s |
+| [TMDB](https://www.themoviedb.org) | 🟢 200 | 0.343s |
 
 ## NEWS
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [Anime News Network](https://www.animenewsnetwork.com) | 🟢 200 | 0.000376s |
+| [Anime News Network](https://www.animenewsnetwork.com) | 🟢 200 | 0.000378s |
 
 ---
 
