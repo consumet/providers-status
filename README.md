@@ -1,14 +1,14 @@
 # Consumet Providers Status (upto-date version)
 
-Last updated: 2026-02-09T01:20:23.141Z
+Last updated: 2026-02-09T06:56:03.964Z
 
 ## ANIME
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [AnimeKai](https://anikai.to) | 🟢 200 | 0.785s |
-| [AnimePahe](https://animepahe.si) | 🟢 200 | 0.943s |
-| [hianime](https://hianime.to) | 🟢 200 | 0.769s |
+| [AnimeKai](https://anikai.to) | 🟢 200 | 0.658s |
+| [AnimePahe](https://animepahe.si) | 🟢 200 | 0.743s |
+| [hianime](https://hianime.to) | 🟢 200 | 0.718s |
 | [AnimeSaturn](https://www.animesaturn.cx/) | 🔴 500 | N/A |
 | [Gogoanime](https://gogoanime.by) | 🔴 500 | N/A |
 | [KickAssAnime](https://kickass-anime.ru) | 🔴 500 | N/A |
@@ -17,11 +17,11 @@ Last updated: 2026-02-09T01:20:23.141Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [ComicK](https://comick.art) | 🟢 200 | 1.70s |
-| [MangaDex](https://mangadex.org) | 🟢 200 | 0.667s |
-| [MangaHere](http://www.mangahere.cc) | 🟢 200 | 0.0789s |
-| [MangaPill](https://mangapill.com) | 🟢 200 | 0.552s |
+| [MangaDex](https://mangadex.org) | 🟢 200 | 1.35s |
+| [MangaHere](http://www.mangahere.cc) | 🟢 200 | 0.170s |
+| [MangaPill](https://mangapill.com) | 🟢 200 | 0.624s |
 | [AsuraScans](https://asuracomic.net) | 🔴 500 | N/A |
+| [ComicK](https://comick.art) | 🔴 500 | N/A |
 | [MangaReader](https://mangareader.to) | 🔴 500 | N/A |
 | [WeebCentral](https://weebcentral.com) | 🔴 500 | N/A |
 
@@ -30,9 +30,9 @@ Last updated: 2026-02-09T01:20:23.141Z
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
 | [FlixHQ](https://flixhq.to) | 🟢 200 | 5.67s |
-| [Goku](https://goku.sx) | 🟢 200 | 3.69s |
-| [HiMovies](https://himovies.sx) | 🟢 200 | 0.586s |
-| [SFlix](https://sflix.to) | 🟢 200 | 0.910s |
+| [Goku](https://goku.sx) | 🟢 200 | 4.54s |
+| [HiMovies](https://himovies.sx) | 🟢 200 | 0.995s |
+| [SFlix](https://sflix.to) | 🟢 200 | 0.885s |
 | [DramaCool](https://dramacool.bg) | 🔴 500 | N/A |
 | [Fmovies](https://ww4.fmovies.co) | 🔴 500 | N/A |
 | [Smashystream](https://embed.smashystream.com) | 🔴 500 | N/A |
@@ -59,21 +59,21 @@ Last updated: 2026-02-09T01:20:23.141Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [Anilist](https://anilist.co) | 🟢 200 | 0.239s |
-| [Myanimelist](https://myanimelist.net/) | 🟢 200 | 0.536s |
-| [TMDB](https://www.themoviedb.org) | 🟢 200 | 0.0364s |
+| [Anilist](https://anilist.co) | 🟢 200 | 0.296s |
+| [Myanimelist](https://myanimelist.net/) | 🟢 200 | 0.505s |
+| [TMDB](https://www.themoviedb.org) | 🟢 200 | 0.195s |
 
 ## NEWS
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [Anime News Network](https://www.animenewsnetwork.com) | 🟢 200 | 0.000288s |
+| [Anime News Network](https://www.animenewsnetwork.com) | 🟢 200 | 0.000442s |
 
 ---
 
 ## Summary
 
 - **Total Providers**: 27
-- **Working**: 15 🟢
-- **Failed**: 12 🔴
-- **Uptime**: 55.6%
+- **Working**: 14 🟢
+- **Failed**: 13 🔴
+- **Uptime**: 51.9%
