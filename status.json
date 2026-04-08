@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-08T07:07:34.928Z",
+  "lastUpdated": "2026-04-08T13:01:25.358Z",
   "totalProviders": 27,
   "workingProviders": 14,
   "failedProviders": 13,
@@ -12,8 +12,8 @@
           "provider": "AnimeKai",
           "baseUrl": "https://anikai.to",
           "status": 200,
-          "responseTime": "0.599s",
-          "lastChecked": "2026-04-08T07:07:05.640Z",
+          "responseTime": "0.573s",
+          "lastChecked": "2026-04-08T13:00:41.740Z",
           "category": "ANIME"
         },
         {
@@ -21,7 +21,7 @@
           "baseUrl": "https://animepahe.si",
           "status": 500,
           "responseTime": "N/A",
-          "lastChecked": "2026-04-08T07:07:05.636Z",
+          "lastChecked": "2026-04-08T13:00:41.738Z",
           "category": "ANIME",
           "error": "ECONNREFUSED"
         },
@@ -30,7 +30,7 @@
           "baseUrl": "https://www.animesaturn.cx/",
           "status": 500,
           "responseTime": "N/A",
-          "lastChecked": "2026-04-08T07:07:05.643Z",
+          "lastChecked": "2026-04-08T13:00:41.746Z",
           "category": "ANIME",
           "error": "Request failed with status code 403"
         },
@@ -39,7 +39,7 @@
           "baseUrl": "https://gogoanime.by",
           "status": 500,
           "responseTime": "N/A",
-          "lastChecked": "2026-04-08T07:07:06.239Z",
+          "lastChecked": "2026-04-08T13:00:42.083Z",
           "category": "ANIME",
           "error": "No results returned"
         },
@@ -48,7 +48,7 @@
           "baseUrl": "https://hianime.to",
           "status": 500,
           "responseTime": "N/A",
-          "lastChecked": "2026-04-08T07:07:05.624Z",
+          "lastChecked": "2026-04-08T13:00:41.731Z",
           "category": "ANIME",
           "error": "No results returned"
         },
@@ -57,7 +57,7 @@
           "baseUrl": "https://kickass-anime.ru",
           "status": 500,
           "responseTime": "N/A",
-          "lastChecked": "2026-04-08T07:07:05.642Z",
+          "lastChecked": "2026-04-08T13:00:41.744Z",
           "category": "ANIME",
           "error": "All domains failed for search"
         }
@@ -70,40 +70,40 @@
           "provider": "ComicK",
           "baseUrl": "https://comick.art",
           "status": 200,
-          "responseTime": "0.131s",
-          "lastChecked": "2026-04-08T07:07:25.498Z",
+          "responseTime": "0.602s",
+          "lastChecked": "2026-04-08T13:01:01.870Z",
           "category": "MANGA"
         },
         {
           "provider": "MangaDex",
           "baseUrl": "https://mangadex.org",
           "status": 200,
-          "responseTime": "1.81s",
-          "lastChecked": "2026-04-08T07:07:25.497Z",
+          "responseTime": "1.40s",
+          "lastChecked": "2026-04-08T13:01:01.868Z",
           "category": "MANGA"
         },
         {
           "provider": "MangaHere",
           "baseUrl": "http://www.mangahere.cc",
           "status": 200,
-          "responseTime": "0.211s",
-          "lastChecked": "2026-04-08T07:07:25.500Z",
+          "responseTime": "0.181s",
+          "lastChecked": "2026-04-08T13:01:01.871Z",
           "category": "MANGA"
         },
         {
           "provider": "MangaPill",
           "baseUrl": "https://mangapill.com",
           "status": 200,
-          "responseTime": "0.542s",
-          "lastChecked": "2026-04-08T07:07:25.501Z",
+          "responseTime": "0.598s",
+          "lastChecked": "2026-04-08T13:01:01.872Z",
           "category": "MANGA"
         },
         {
           "provider": "WeebCentral",
           "baseUrl": "https://weebcentral.com",
           "status": 200,
-          "responseTime": "0.363s",
-          "lastChecked": "2026-04-08T07:07:25.711Z",
+          "responseTime": "0.330s",
+          "lastChecked": "2026-04-08T13:01:02.452Z",
           "category": "MANGA"
         },
         {
@@ -111,7 +111,7 @@
           "baseUrl": "https://asuracomic.net",
           "status": 500,
           "responseTime": "N/A",
-          "lastChecked": "2026-04-08T07:07:25.630Z",
+          "lastChecked": "2026-04-08T13:01:02.052Z",
           "category": "MANGA",
           "error": "undefined is not an object (evaluating 'dom.find(\".flex.items-center.justify-center > a\").attr(\"style\").split')"
         },
@@ -120,7 +120,7 @@
           "baseUrl": "https://mangareader.to",
           "status": 500,
           "responseTime": "N/A",
-          "lastChecked": "2026-04-08T07:07:25.501Z",
+          "lastChecked": "2026-04-08T13:01:01.874Z",
           "category": "MANGA",
           "error": "Request failed with status code 502"
         }
@@ -133,32 +133,32 @@
           "provider": "FlixHQ",
           "baseUrl": "https://flixhq.to",
           "status": 200,
-          "responseTime": "5.68s",
-          "lastChecked": "2026-04-08T07:07:27.312Z",
+          "responseTime": "6.42s",
+          "lastChecked": "2026-04-08T13:01:17.558Z",
           "category": "MOVIES"
         },
         {
           "provider": "Goku",
           "baseUrl": "https://goku.sx",
           "status": 200,
-          "responseTime": "3.86s",
-          "lastChecked": "2026-04-08T07:07:27.314Z",
+          "responseTime": "3.63s",
+          "lastChecked": "2026-04-08T13:01:17.560Z",
           "category": "MOVIES"
         },
         {
           "provider": "HiMovies",
           "baseUrl": "https://himovies.sx",
           "status": 200,
-          "responseTime": "0.977s",
-          "lastChecked": "2026-04-08T07:07:27.949Z",
+          "responseTime": "0.538s",
+          "lastChecked": "2026-04-08T13:01:17.869Z",
           "category": "MOVIES"
         },
         {
           "provider": "SFlix",
           "baseUrl": "https://sflix.to",
           "status": 200,
-          "responseTime": "0.933s",
-          "lastChecked": "2026-04-08T07:07:27.317Z",
+          "responseTime": "0.817s",
+          "lastChecked": "2026-04-08T13:01:17.563Z",
           "category": "MOVIES"
         },
         {
@@ -166,7 +166,7 @@
           "baseUrl": "https://dramacool.bg",
           "status": 500,
           "responseTime": "N/A",
-          "lastChecked": "2026-04-08T07:07:27.311Z",
+          "lastChecked": "2026-04-08T13:01:17.556Z",
           "category": "MOVIES",
           "error": "No results returned"
         },
@@ -175,7 +175,7 @@
           "baseUrl": "https://ww4.fmovies.co",
           "status": 500,
           "responseTime": "N/A",
-          "lastChecked": "2026-04-08T07:07:27.313Z",
+          "lastChecked": "2026-04-08T13:01:17.559Z",
           "category": "MOVIES",
           "error": "\"/fmovies-vrf?query=batman&apikey=\" cannot be parsed as a URL."
         },
@@ -184,7 +184,7 @@
           "baseUrl": "https://embed.smashystream.com",
           "status": 500,
           "responseTime": "N/A",
-          "lastChecked": "2026-04-08T07:07:27.315Z",
+          "lastChecked": "2026-04-08T13:01:17.561Z",
           "category": "MOVIES",
           "error": "Method not implemented."
         },
@@ -193,7 +193,7 @@
           "baseUrl": "https://turkish123.ac/",
           "status": 500,
           "responseTime": "N/A",
-          "lastChecked": "2026-04-08T07:07:27.315Z",
+          "lastChecked": "2026-04-08T13:01:17.561Z",
           "category": "MOVIES",
           "error": "No results returned"
         }
@@ -211,7 +211,7 @@
           "baseUrl": "https://getcomics.info/",
           "status": 500,
           "responseTime": "N/A",
-          "lastChecked": "2026-04-08T07:07:32.992Z",
+          "lastChecked": "2026-04-08T13:01:23.975Z",
           "category": "COMICS",
           "error": "Request failed with status code 403"
         }
@@ -225,7 +225,7 @@
           "baseUrl": "https://www.novelupdates.com",
           "status": 500,
           "responseTime": "N/A",
-          "lastChecked": "2026-04-08T07:07:33.448Z",
+          "lastChecked": "2026-04-08T13:01:24.160Z",
           "category": "LIGHT_NOVELS",
           "error": "No results returned"
         }
@@ -238,24 +238,24 @@
           "provider": "Anilist",
           "baseUrl": "https://anilist.co",
           "status": 200,
-          "responseTime": "0.299s",
-          "lastChecked": "2026-04-08T07:07:34.193Z",
+          "responseTime": "0.241s",
+          "lastChecked": "2026-04-08T13:01:24.756Z",
           "category": "META"
         },
         {
           "provider": "Myanimelist",
           "baseUrl": "https://myanimelist.net/",
           "status": 200,
-          "responseTime": "0.732s",
-          "lastChecked": "2026-04-08T07:07:34.195Z",
+          "responseTime": "0.599s",
+          "lastChecked": "2026-04-08T13:01:24.759Z",
           "category": "META"
         },
         {
           "provider": "TMDB",
           "baseUrl": "https://www.themoviedb.org",
           "status": 200,
-          "responseTime": "0.162s",
-          "lastChecked": "2026-04-08T07:07:34.197Z",
+          "responseTime": "0.115s",
+          "lastChecked": "2026-04-08T13:01:24.760Z",
           "category": "META"
         }
       ]
@@ -267,8 +267,8 @@
           "provider": "Anime News Network",
           "baseUrl": "https://www.animenewsnetwork.com",
           "status": 200,
-          "responseTime": "0.000363s",
-          "lastChecked": "2026-04-08T07:07:34.927Z",
+          "responseTime": "0.000466s",
+          "lastChecked": "2026-04-08T13:01:25.358Z",
           "category": "NEWS"
         }
       ]
