@@ -1,12 +1,12 @@
 # Consumet Providers Status (upto-date version)
 
-Last updated: 2026-05-14T13:48:12.108Z
+Last updated: 2026-05-14T19:28:44.041Z
 
 ## ANIME
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [AnimeKai](https://anikai.to) | 🟢 200 | 0.723s |
+| [AnimeKai](https://anikai.to) | 🟢 200 | 0.325s |
 | [AnimePahe](https://animepahe.si) | 🔴 500 | N/A |
 | [AnimeSaturn](https://www.animesaturn.cx/) | 🔴 500 | N/A |
 | [Gogoanime](https://gogoanime.by) | 🔴 500 | N/A |
@@ -17,11 +17,11 @@ Last updated: 2026-05-14T13:48:12.108Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [ComicK](https://comick.art) | 🟢 200 | 0.613s |
-| [MangaDex](https://mangadex.org) | 🟢 200 | 6.73s |
-| [MangaHere](http://www.mangahere.cc) | 🟢 200 | 0.179s |
-| [MangaPill](https://mangapill.com) | 🟢 200 | 0.365s |
-| [WeebCentral](https://weebcentral.com) | 🟢 200 | 0.681s |
+| [ComicK](https://comick.art) | 🟢 200 | 0.119s |
+| [MangaDex](https://mangadex.org) | 🟢 200 | 0.755s |
+| [MangaHere](http://www.mangahere.cc) | 🟢 200 | 0.150s |
+| [MangaPill](https://mangapill.com) | 🟢 200 | 0.378s |
+| [WeebCentral](https://weebcentral.com) | 🟢 200 | 0.312s |
 | [AsuraScans](https://asuracomic.net) | 🔴 500 | N/A |
 | [MangaReader](https://mangareader.to) | 🔴 500 | N/A |
 
@@ -59,15 +59,15 @@ Last updated: 2026-05-14T13:48:12.108Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [Anilist](https://anilist.co) | 🟢 200 | 0.195s |
-| [Myanimelist](https://myanimelist.net/) | 🟢 200 | 0.667s |
-| [TMDB](https://www.themoviedb.org) | 🟢 200 | 0.138s |
+| [Anilist](https://anilist.co) | 🟢 200 | 0.123s |
+| [Myanimelist](https://myanimelist.net/) | 🟢 200 | 0.431s |
+| [TMDB](https://www.themoviedb.org) | 🟢 200 | 0.223s |
 
 ## NEWS
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [Anime News Network](https://www.animenewsnetwork.com) | 🟢 200 | 0.000415s |
+| [Anime News Network](https://www.animenewsnetwork.com) | 🟢 200 | 0.000440s |
 
 ---
 
