@@ -1,12 +1,12 @@
 # Consumet Providers Status (upto-date version)
 
-Last updated: 2026-05-14T19:28:44.041Z
+Last updated: 2026-05-15T02:15:12.722Z
 
 ## ANIME
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [AnimeKai](https://anikai.to) | 🟢 200 | 0.325s |
+| [AnimeKai](https://anikai.to) | 🔴 500 | N/A |
 | [AnimePahe](https://animepahe.si) | 🔴 500 | N/A |
 | [AnimeSaturn](https://www.animesaturn.cx/) | 🔴 500 | N/A |
 | [Gogoanime](https://gogoanime.by) | 🔴 500 | N/A |
@@ -17,11 +17,11 @@ Last updated: 2026-05-14T19:28:44.041Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [ComicK](https://comick.art) | 🟢 200 | 0.119s |
-| [MangaDex](https://mangadex.org) | 🟢 200 | 0.755s |
-| [MangaHere](http://www.mangahere.cc) | 🟢 200 | 0.150s |
-| [MangaPill](https://mangapill.com) | 🟢 200 | 0.378s |
-| [WeebCentral](https://weebcentral.com) | 🟢 200 | 0.312s |
+| [ComicK](https://comick.art) | 🟢 200 | 0.428s |
+| [MangaDex](https://mangadex.org) | 🟢 200 | 10.9s |
+| [MangaHere](http://www.mangahere.cc) | 🟢 200 | 0.175s |
+| [MangaPill](https://mangapill.com) | 🟢 200 | 0.473s |
+| [WeebCentral](https://weebcentral.com) | 🟢 200 | 0.389s |
 | [AsuraScans](https://asuracomic.net) | 🔴 500 | N/A |
 | [MangaReader](https://mangareader.to) | 🔴 500 | N/A |
 
@@ -47,7 +47,7 @@ Last updated: 2026-05-14T19:28:44.041Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [GetComics](https://getcomics.info/) | 🔴 500 | N/A |
+| [GetComics](https://getcomics.info/) | 🟢 200 | 6.50s |
 
 ## LIGHT_NOVELS
 
@@ -59,15 +59,15 @@ Last updated: 2026-05-14T19:28:44.041Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [Anilist](https://anilist.co) | 🟢 200 | 0.123s |
-| [Myanimelist](https://myanimelist.net/) | 🟢 200 | 0.431s |
-| [TMDB](https://www.themoviedb.org) | 🟢 200 | 0.223s |
+| [Anilist](https://anilist.co) | 🟢 200 | 0.103s |
+| [Myanimelist](https://myanimelist.net/) | 🟢 200 | 0.771s |
+| [TMDB](https://www.themoviedb.org) | 🟢 200 | 0.176s |
 
 ## NEWS
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [Anime News Network](https://www.animenewsnetwork.com) | 🟢 200 | 0.000440s |
+| [Anime News Network](https://www.animenewsnetwork.com) | 🟢 200 | 0.000494s |
 
 ---
 
