@@ -1,12 +1,12 @@
 # Consumet Providers Status (upto-date version)
 
-Last updated: 2026-05-27T02:36:31.183Z
+Last updated: 2026-05-27T09:30:49.814Z
 
 ## ANIME
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [AnimeKai](https://anikai.to) | 🟢 200 | 0.517s |
+| [AnimeKai](https://anikai.to) | 🔴 500 | N/A |
 | [AnimePahe](https://animepahe.si) | 🔴 500 | N/A |
 | [AnimeSaturn](https://www.animesaturn.cx/) | 🔴 500 | N/A |
 | [Gogoanime](https://gogoanime.by) | 🔴 500 | N/A |
@@ -17,11 +17,11 @@ Last updated: 2026-05-27T02:36:31.183Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [ComicK](https://comick.art) | 🟢 200 | 0.568s |
-| [MangaDex](https://mangadex.org) | 🟢 200 | 1.09s |
-| [MangaHere](http://www.mangahere.cc) | 🟢 200 | 0.122s |
-| [MangaPill](https://mangapill.com) | 🟢 200 | 0.449s |
-| [WeebCentral](https://weebcentral.com) | 🟢 200 | 0.260s |
+| [ComicK](https://comick.art) | 🟢 200 | 0.441s |
+| [MangaDex](https://mangadex.org) | 🟢 200 | 0.520s |
+| [MangaHere](http://www.mangahere.cc) | 🟢 200 | 0.152s |
+| [MangaPill](https://mangapill.com) | 🟢 200 | 0.434s |
+| [WeebCentral](https://weebcentral.com) | 🟢 200 | 0.207s |
 | [AsuraScans](https://asuracomic.net) | 🔴 500 | N/A |
 | [MangaReader](https://mangareader.to) | 🔴 500 | N/A |
 
@@ -59,21 +59,21 @@ Last updated: 2026-05-27T02:36:31.183Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [Anilist](https://anilist.co) | 🟢 200 | 0.114s |
-| [Myanimelist](https://myanimelist.net/) | 🟢 200 | 0.425s |
-| [TMDB](https://www.themoviedb.org) | 🟢 200 | 0.189s |
+| [Anilist](https://anilist.co) | 🟢 200 | 0.115s |
+| [Myanimelist](https://myanimelist.net/) | 🟢 200 | 0.875s |
+| [TMDB](https://www.themoviedb.org) | 🟢 200 | 0.198s |
 
 ## NEWS
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [Anime News Network](https://www.animenewsnetwork.com) | 🟢 200 | 0.000346s |
+| [Anime News Network](https://www.animenewsnetwork.com) | 🟢 200 | 0.000419s |
 
 ---
 
 ## Summary
 
 - **Total Providers**: 27
-- **Working**: 10 🟢
-- **Failed**: 17 🔴
-- **Uptime**: 37.0%
+- **Working**: 9 🟢
+- **Failed**: 18 🔴
+- **Uptime**: 33.3%
