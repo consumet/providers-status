@@ -1,6 +1,6 @@
 # Consumet Providers Status (upto-date version)
 
-Last updated: 2026-06-02T16:03:42.404Z
+Last updated: 2026-06-02T20:36:16.568Z
 
 ## ANIME
 
@@ -17,11 +17,11 @@ Last updated: 2026-06-02T16:03:42.404Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [ComicK](https://comick.art) | 🟢 200 | 0.613s |
-| [MangaDex](https://mangadex.org) | 🟢 200 | 0.823s |
-| [MangaHere](http://www.mangahere.cc) | 🟢 200 | 0.167s |
-| [MangaPill](https://mangapill.com) | 🟢 200 | 0.630s |
-| [WeebCentral](https://weebcentral.com) | 🟢 200 | 0.489s |
+| [ComicK](https://comick.art) | 🟢 200 | 0.788s |
+| [MangaDex](https://mangadex.org) | 🟢 200 | 0.422s |
+| [MangaHere](http://www.mangahere.cc) | 🟢 200 | 0.126s |
+| [MangaPill](https://mangapill.com) | 🟢 200 | 0.614s |
+| [WeebCentral](https://weebcentral.com) | 🟢 200 | 0.291s |
 | [AsuraScans](https://asuracomic.net) | 🔴 500 | N/A |
 | [MangaReader](https://mangareader.to) | 🔴 500 | N/A |
 
@@ -47,7 +47,7 @@ Last updated: 2026-06-02T16:03:42.404Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [GetComics](https://getcomics.info/) | 🟢 200 | 3.04s |
+| [GetComics](https://getcomics.info/) | 🟢 200 | 3.62s |
 
 ## LIGHT_NOVELS
 
@@ -59,15 +59,15 @@ Last updated: 2026-06-02T16:03:42.404Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [Anilist](https://anilist.co) | 🟢 200 | 0.194s |
-| [Myanimelist](https://myanimelist.net/) | 🟢 200 | 0.752s |
-| [TMDB](https://www.themoviedb.org) | 🟢 200 | 0.105s |
+| [Anilist](https://anilist.co) | 🟢 200 | 0.228s |
+| [Myanimelist](https://myanimelist.net/) | 🟢 200 | 0.396s |
+| [TMDB](https://www.themoviedb.org) | 🟢 200 | 0.0451s |
 
 ## NEWS
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [Anime News Network](https://www.animenewsnetwork.com) | 🟢 200 | 0.000384s |
+| [Anime News Network](https://www.animenewsnetwork.com) | 🟢 200 | 0.000385s |
 
 ---
 
