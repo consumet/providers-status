@@ -1,6 +1,6 @@
 # Consumet Providers Status (upto-date version)
 
-Last updated: 2026-07-04T13:02:35.943Z
+Last updated: 2026-07-04T18:58:30.579Z
 
 ## ANIME
 
@@ -17,11 +17,11 @@ Last updated: 2026-07-04T13:02:35.943Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [ComicK](https://comick.art) | 🟢 200 | 0.519s |
-| [MangaDex](https://mangadex.org) | 🟢 200 | 5.62s |
-| [MangaHere](http://www.mangahere.cc) | 🟢 200 | 0.148s |
-| [MangaPill](https://mangapill.com) | 🟢 200 | 0.479s |
-| [WeebCentral](https://weebcentral.com) | 🟢 200 | 0.349s |
+| [ComicK](https://comick.art) | 🟢 200 | 0.777s |
+| [MangaDex](https://mangadex.org) | 🟢 200 | 1.71s |
+| [MangaHere](http://www.mangahere.cc) | 🟢 200 | 0.184s |
+| [MangaPill](https://mangapill.com) | 🟢 200 | 0.645s |
+| [WeebCentral](https://weebcentral.com) | 🟢 200 | 0.369s |
 | [AsuraScans](https://asuracomic.net) | 🔴 500 | N/A |
 | [MangaReader](https://mangareader.to) | 🔴 500 | N/A |
 
@@ -47,7 +47,7 @@ Last updated: 2026-07-04T13:02:35.943Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [GetComics](https://getcomics.info/) | 🔴 500 | N/A |
+| [GetComics](https://getcomics.info/) | 🟢 200 | 4.25s |
 
 ## LIGHT_NOVELS
 
@@ -59,21 +59,21 @@ Last updated: 2026-07-04T13:02:35.943Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [Anilist](https://anilist.co) | 🟢 200 | 0.157s |
-| [Myanimelist](https://myanimelist.net/) | 🟢 200 | 1.02s |
-| [TMDB](https://www.themoviedb.org) | 🟢 200 | 0.0551s |
+| [Anilist](https://anilist.co) | 🟢 200 | 0.329s |
+| [Myanimelist](https://myanimelist.net/) | 🟢 200 | 0.864s |
+| [TMDB](https://www.themoviedb.org) | 🟢 200 | 0.170s |
 
 ## NEWS
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [Anime News Network](https://www.animenewsnetwork.com) | 🟢 200 | 0.000375s |
+| [Anime News Network](https://www.animenewsnetwork.com) | 🟢 200 | 0.000513s |
 
 ---
 
 ## Summary
 
 - **Total Providers**: 27
-- **Working**: 9 🟢
-- **Failed**: 18 🔴
-- **Uptime**: 33.3%
+- **Working**: 10 🟢
+- **Failed**: 17 🔴
+- **Uptime**: 37.0%
