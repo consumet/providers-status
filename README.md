@@ -1,6 +1,6 @@
 # Consumet Providers Status (upto-date version)
 
-Last updated: 2026-08-12T12:46:36.316Z
+Last updated: 2026-08-12T18:50:09.866Z
 
 ## ANIME
 
@@ -17,11 +17,11 @@ Last updated: 2026-08-12T12:46:36.316Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [ComicK](https://comick.art) | 🟢 200 | 0.701s |
-| [MangaDex](https://mangadex.org) | 🟢 200 | 4.50s |
-| [MangaHere](http://www.mangahere.cc) | 🟢 200 | 0.152s |
-| [MangaPill](https://mangapill.com) | 🟢 200 | 0.646s |
-| [WeebCentral](https://weebcentral.com) | 🟢 200 | 0.345s |
+| [ComicK](https://comick.art) | 🟢 200 | 0.693s |
+| [MangaDex](https://mangadex.org) | 🟢 200 | 4.47s |
+| [MangaHere](http://www.mangahere.cc) | 🟢 200 | 0.115s |
+| [MangaPill](https://mangapill.com) | 🟢 200 | 0.643s |
+| [WeebCentral](https://weebcentral.com) | 🟢 200 | 0.371s |
 | [AsuraScans](https://asuracomic.net) | 🔴 500 | N/A |
 | [MangaReader](https://mangareader.to) | 🔴 500 | N/A |
 
@@ -59,15 +59,15 @@ Last updated: 2026-08-12T12:46:36.316Z
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [Anilist](https://anilist.co) | 🟢 200 | 0.256s |
-| [Myanimelist](https://myanimelist.net/) | 🟢 200 | 0.559s |
-| [TMDB](https://www.themoviedb.org) | 🟢 200 | 0.123s |
+| [Anilist](https://anilist.co) | 🟢 200 | 0.268s |
+| [Myanimelist](https://myanimelist.net/) | 🟢 200 | 0.638s |
+| [TMDB](https://www.themoviedb.org) | 🟢 200 | 0.251s |
 
 ## NEWS
 
 | **Provider** | **Status** | **Response Time** |
 |:------------|:--------:|:-----------------:|
-| [Anime News Network](https://www.animenewsnetwork.com) | 🟢 200 | 0.000334s |
+| [Anime News Network](https://www.animenewsnetwork.com) | 🟢 200 | 0.000349s |
 
 ---
 
